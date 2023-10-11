@@ -84,14 +84,12 @@ header .headTete{
     display: flex;
     justify-content: center;
     align-items: center;
-    /* margin-left: 10px; */
+    margin-right: 10px;
 }
 .logo{
 width: 60%;
 }
-.social{
-    margin-left: 10px;
-}
+
 .logo img{
 height: 50px;
 }

@@ -8,30 +8,6 @@
 :root {
     --redsimplon : #CE0033;
 }
-.bannertop{
-
-   
-    background: #000 url(https://img.freepik.com/photos-gratuite/ingenieur-africain-enthousiaste-analysant-logiciel-cao-pour-concevoir-concept-3d-conteneur-travaillant-heures-supplementaires-dans-start-up-pour-prototype_482257-2427.jpg?size=626&ext=jpg&ga=GA1.1.2145246215.1689776414&semt=ais);
-
-    height: 250px;
-    color: white;
-    /* width: 100%; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-}
-.bannertop h4{
-    font-weight: bold;
-    z-index: 1;
-}
-.color_overlay{
-    width: 100%;
-    height: 100%;
-    background: #000;
-    opacity: 0.6;
-    position: absolute;
-}
 
 
 .lefttop{
