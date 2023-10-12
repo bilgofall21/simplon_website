@@ -145,10 +145,23 @@
 
 @media screen and (max-width: 992px) {
   .corpcontainer{
-    display: block;
-    width: 100%;
+    display: flex;
+    flex-direction: column;
     /* margin-top: 30px; */
-    margin-left: 5px;
+    margin-left: 0;
+  }
+
+  .cardformation{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-top: 30px;
+  }
+
+  #cardformation1{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
   }
 
   .pourcent{
