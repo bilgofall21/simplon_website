@@ -1,0 +1,172 @@
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: none;
+    list-style: none;
+
+}
+:root {
+    --redsimplon : #CE0033;
+}
+
+
+/* ----------- Debut Header refonte page */
+main{
+    padding-top: 140px;
+}
+
+
+#logo{
+    /* border: 1px solid red; */
+    height: 15vh;
+    width: 100%;
+}
+#navbarSupportedContent .nav-item .nav-link{
+    color:black !important;
+}
+header .Tete{
+    background-color: #a4082f;
+
+}
+header .Tete .teteContainer{
+    display: flex;
+    padding: 4px 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .headTete{
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.icones{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icones .sociaux{
+    margin-left: 15px;
+    padding: 2px 4px;
+    width: 15%;
+    border-radius: 50%;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#banner{
+    background: linear-gradient(0deg, #0000008f, #0000008f), url("../menu/menu_image/baniere.jpg");
+    height: 60vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    width: 100%;
+    background-position: center;
+    color: white;
+
+}
+#banner p{
+    margin: 0 auto;
+    text-align: center;
+}
+/* ----------- fin menu refonte page */
+
+/* ----------- debut footer refonte page */
+.social {
+    border: 1px solid white;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-left: 10px; */
+}
+.logo{
+width: 60%;
+}
+.social{
+    margin-left: 10px;
+}
+.logo img{
+height: 50px;
+}
+.footercontainer{
+    padding: 20px 2%;
+}
+.footercontainer h4{
+    font-weight: bold;
+    font-size: 20px;
+    /* margin-left: 31px; */
+}
+
+/* Media query footer */
+@media (max-width:804px){
+    .logo{
+        /* margin-left: 30px; */
+        margin-left: 25%;
+     }
+    #email{
+       width: 100%;
+    }
+    .logosocial{
+        margin-left: 30px;
+    }
+
+    
+} 
+@media (max-width:448px){
+    .logo{
+        margin-left: 1px;
+    }
+    .logosocial{
+        justify-content: left;
+        margin-left: 1px;
+       
+    }
+    #email{
+        /* margin-left: 20px; */
+        margin-bottom: 10px;
+        width: 100%;
+    }
+    .droit h5{
+        font-size: 17px;
+    }
+    }
+
+    /* ----------- Fin footer refonte page */
+
+
+    /* baniere page */
+    #banner{
+        background: linear-gradient(0deg, #0000008f, #0000008f), url("../menu/menu_image/baniere.jpg");
+        height: 30vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin: 0;
+        width: 100%;
+        background-position: center;
+        color: white;
+    
+    }
+    #banner p{
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    /* fin baniere page */
+
+
+
+
+
+
+
+
+
+
+    
+    

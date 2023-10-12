@@ -1,0 +1,77 @@
+.card .card-body{
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+}
+.card-title{
+    text-align: center;
+}
+
+.container{
+    display: grid;
+   grid-template-columns: 1fr 1fr;
+   margin-bottom: 30px;
+}
+.titl-text{
+    background-color: white;
+    box-shadow: 3px 5px 4px #CE0033;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+.simplonco{
+    background-color: #CE0033;
+    box-shadow: 3px 10px 4px black;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 30px;
+    
+}
+.text p{
+    margin-right: 20px;
+  
+}
+.card-body{
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.toldbox{
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 5px 4px black;
+    margin-bottom: 30px;
+    width: 80%;
+    margin-left: 10%;
+    color: white;
+}
+.toldbox .pourcent{
+    background-color: #CE0033;
+}
+.pourcent h5{
+font-size: 30px;
+font-weight: 700;
+}
+.card-last{
+    background-color: #CE0033;
+    color: white;
+}
+
+
+@media screen and (max-width:767px){
+    .toldbox{
+        text-align: center;
+        display: grid;
+        grid-template-columns: 1fr;
+        /* gap: 10px;
+        border-radius: 10px;
+        box-shadow: 3px 5px 4px black;
+        margin-bottom: 30px;
+        width: 80%;
+        margin-left: 10%;
+        color: white; */
+    }
+}
