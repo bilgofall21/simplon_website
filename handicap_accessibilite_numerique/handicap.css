@@ -20,12 +20,8 @@ img{
 }
 .imgpourcentage img{
  width: 15%;
+ height: 10%;
  text-align: center;
  margin-left: 8%;
 
-}
-@media screen and (max-widh: 767px){
-    .row{
-        padding: 0;
-    }
 }
