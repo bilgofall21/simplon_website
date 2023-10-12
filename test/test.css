@@ -1,0 +1,16 @@
+.grille{
+    max-width: 1300px;
+    width: 80%;
+    height: auto;
+    margin: 30px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 300px);
+    justify-content: center;
+    grid-gap: 5px;
+
+}
+.grid-item{
+    background-color: rgba(0, 0, 0, 0.174);
+    width: 300px;
+    height: 200px;
+}
