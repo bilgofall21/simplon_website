@@ -3,6 +3,8 @@
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 
 }
 :root {
@@ -157,6 +159,17 @@ height: 50px;
     }
 
     /* fin baniere page */
+    @media (max-width:448px){
+        .icones{
+            display: none;
+        }
+        header .Tete .teteContainer{
+            display: flex;
+            padding: 4px 20px;
+            justify-content: center;
+            /* align-items: center; */
+        }
+    }
 
 
 
