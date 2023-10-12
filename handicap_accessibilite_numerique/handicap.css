@@ -1,0 +1,31 @@
+img{
+    height: 350px;
+}
+.card img{
+    width: 80%;
+    height: 50%;
+    margin-left: 40px;
+}
+.card-group{
+    margin-left: 10%;
+    width: 80%;
+    background-color: white;
+    box-shadow: 3px 5px 4px #CE0033;
+    gap: 20px;
+}
+.toldbox .pourcent h5{
+    color: #CE0033;
+    font-size: 30px;
+    font-weight: 700;
+}
+.imgpourcentage img{
+ width: 15%;
+ text-align: center;
+ margin-left: 8%;
+
+}
+@media screen and (max-widh: 767px){
+    .row{
+        padding: 0;
+    }
+}
