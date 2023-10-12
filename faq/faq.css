@@ -1,0 +1,69 @@
+:root{
+    --gris:rgb(230, 226, 226);
+    --rouge:#a4082f;
+
+}
+/* img{
+    object-fit: cover;
+    object-position: bottom-right;
+} */
+.banniere_bg{
+    width: 100%;
+    height: 300px;
+    background-image: url(images_faq/faq1.jpg);
+    /* background:linear-gradient(0deg, rgba(0,0,0,0.5)), url("images_faq/faq1.jpg"); */
+    background-size: cover;
+    background-position: center;
+}
+
+/* banniere */
+
+.faq .petit_titre_text{
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top:19% ;
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+
+}
+.faq .petit_titre_text h3 {
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 7%;
+    position: relative;
+    top: 145px;
+}
+
+.faq .petit_titre_text p {
+    font-size: 17px;
+    font-weight: bold;
+    position: relative;
+    top: 105px;
+    margin-left: -77%;
+}
+/* fin banniere */
+
+.section1{
+    background-color: var(--gris);
+    padding: 1px;
+}
+.section2__ {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    gap: 5%;
+    justify-content: space-around;
+    
+}
+.accordion-button{
+    border: 2px solid var(--rouge);
+}
+
+.section3{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 2%;
+}
