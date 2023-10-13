@@ -1,0 +1,50 @@
+:root{
+    --gris:rgb(230, 226, 226);
+    --rouge:#a4082f;
+
+}
+
+/* banniere */
+.blog .banniere_bg{
+    width: 100%;
+    height: 300px;
+    background-image: url(images_blog/blog3.jpg);
+    /* background:linear-gradient(0deg, rgba(0,0,0,0.5)), url("images_faq/faq1.jpg"); */
+    background-size: cover;
+    background-position: center;
+}
+
+
+.blog .petit_titre_text{
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top:20.5% ;
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+
+}
+.blog .petit_titre_text h3 {
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 7%;
+    position: relative;
+    top: 145px;
+}
+
+.blog .petit_titre_text p {
+    font-size: 17px;
+    font-weight: bold;
+    position: relative;
+    top: 105px;
+    margin-left: -77%;
+}
+/* fin banniere */
+
+.blog .section1{
+    background-color: var(--gris);
+    padding: 1px;
+}
