@@ -23,7 +23,7 @@ main .banniere .retour a{
 main .blocpressbis{
     /* border: 1px solid red; */
     width: 80%;
-    height: 1200px;
+    height: 800px;
     margin: 1% auto;
 }
 main .blocpressbis .toppresse{
@@ -41,9 +41,9 @@ main .blocpressbis .toppresse .cardtop{
     border: 3px solid;
    
 }
-main .blocpressbis .otherpresse .otherpresseleft .media{
-    height: 166px;
-    border:3px solid black ;
+#media{
+    height: 176px;
+    border:3px solid black !important ;
 }
 
 main .blocpressbis .otherpresse{
