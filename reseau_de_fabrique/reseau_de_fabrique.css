@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css2? family= Poppins:wght@100 & display=swap');
+:root{
+    --rouge:#a4082f;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main .all{
+    margin: 100px;
+    margin-top: -150px;
+}
+/* main .petit_titre_text{
+    background:linear-gradient(0deg, rgba(0,0,0,0.5)), url("images_reseau_de_fabrique/image-location.jpg");
+    height: 32vh;
+} */
+
+.img_baniere{
+    width: 100%;
+    height: 300px;
+}
+main .petit_titre_text h3 {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 7%;
+    position: relative;
+    top: -200px;
+}
+main .petit_titre_text p {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    position: relative;
+    top: -230px;
+    margin-left: 3%;
+}
+/* .container{
+    margin-bottom: 220px;
+    
+} */
+.section2 .barre_rouge{
+    width: 40px;
+    height: 8px;
+    background-color: var(--rouge);
+}
+.fa-chevron-down{
+    position: relative;
+    left: -35px;
+}
+
+.section3{
+       
+    /* width: 300%;  */
+    /* height: 100%;  */
+    /* overflow: hidden; */
+}
+
+.section3 .carte_localisation{
+    margin: 20px;
+    width: 600px;
+    margin-bottom: 30px;
+}
+.section3 .cartes_localisation{
+       
+    /* width: 100%;    */
+    /* height: auto;    */
+    /* overflow-y: scroll; */
+    /* scroll-behavior: smooth; */
+    /* overflow-x: hidden; */
+    /* overflow-y: scroll; */
+    /* overflow: auto; */
+}
+.section3 .text_icone{
+    margin-left: 23%;
+
+
+}
+.section3 button{
+    border: 2px solid var(--rouge);
+    background-color: white;
+    color: var(--rouge);
+    padding: 15px;
+    width: 200px;
+    margin-left: 63%;
+    margin-bottom: 19px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.section3 button:hover{
+    background-color: var(--rouge);
+    color: white;
+}
+.satistique .fa-solid{
+    margin-top: 30px;
+    font-size: 60px;
+}
+main .btn_decouvrir{
+    border: 2px solid var(--rouge);
+    background-color: white;
+    color: var(--rouge);
+    padding: 15px;
+    width: 600px;
+    font-weight: bolder;
+    font-size: 30px;
+
+}
+
+main .btn_decouvrir:hover{
+    background-color: var(--rouge);
+    color: white;
+
+}
+/* media queries */
+@media only screen and (max-width: 600px ){
+    main .all{
+        margin: 10px;
+        margin-top: -150px;
+    }
+    
+    main .petit_titre_text h3 {
+        text-align: center;
+        color: white;
+        font-weight: bold;
+        font-size: 13px;
+        text-transform: uppercase;
+        margin-bottom: 19%;
+        position: relative;
+        top: -165px;
+    }
+    main .petit_titre_text p {
+        color: white;
+        font-size: 10px;
+        font-weight: bold;
+        position: relative;
+        top: -135px;
+        margin-left: 4%;
+        margin-bottom: 19%;
+
+    }
+    .section1{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .section2 .barre_rouge{
+        width: 30px;
+        height: 8px;
+        background-color: var(--rouge);
+    }
+    main input{
+        width: auto;
+    }
+    .section3{
+        display: flex;
+        flex-direction: column;
+    }
+  
+    
+    .section3 .carte_localisation{
+        margin: 15px;
+        width: auto;
+        margin-bottom: 30px;
+    }
+    .section3 .text_icone{
+        margin-left: 3%;
+    
+    
+    }
+    .section3 button{
+        border: 2px solid var(--rouge);
+        background-color: white;
+        color: var(--rouge);
+        padding: 13px;
+        width: 200px;
+        margin-left: 40%;
+        margin-bottom: 19px;
+        font-weight: bold;
+        font-size: 20px;
+    }
+    .carte_iframee{
+        height: 100%;
+        width: auto;
+    }
+    .satistique .fa-solid{
+        margin-top: 30px;
+        font-size: 20px;
+    }
+    .satistique{
+        font-size:  10px;
+    }
+    .section5{
+        display: flex;
+        flex-direction: column;
+    }
+  
+    main .btn_decouvrir{
+        border: 2px solid var(--rouge);
+        background-color: white;
+        color: var(--rouge);
+        padding: 15px;
+        width: auto;
+        font-weight: bolder;
+        font-size: 20px;
+    
+    }
+    
+}
+@media only screen and (min-width: 601px ) and (max-width: 900px ){
+    
+    main .all{
+        margin: 10px;
+        margin-top: -250px;
+    }
+    
+    main .petit_titre_text h3 {
+        text-align: center;
+        color: white;
+        font-weight: bold;
+        font-size: 30px;
+        text-transform: uppercase;
+        margin-bottom: 13%;
+        position: relative;
+        top: -169px;
+    }
+    main .petit_titre_text p {
+        color: white;
+        font-size: 18px;
+        font-weight: bold;
+        position: relative;
+        top: -185px;
+        margin-left: 3%;
+        margin-bottom: 19%;
+
+    }
+    .section1{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .section2 .barre_rouge{
+        width: 30px;
+        height: 8px;
+        background-color: var(--rouge);
+    }
+    main input{
+        width: auto;
+    }
+    .section3{
+        display: flex;
+        flex-direction: column;
+    }
+  
+    
+    .section3 .carte_localisation{
+        margin: 15px;
+        width: auto;
+        margin-bottom: 30px;
+    }
+    .section3 .text_icone{
+        margin-left: 20%;
+    
+    
+    }
+    .section3 button{
+        border: 2px solid var(--rouge);
+        background-color: white;
+        color: var(--rouge);
+        padding: 13px;
+        width: 200px;
+        margin-left: 70%;
+        margin-bottom: 19px;
+        font-weight: bold;
+        font-size: 20px;
+    }
+    .carte_iframee{
+        height: 100%;
+        width: auto;
+    }
+    .satistique .fa-solid{
+        margin-top: 30px;
+        font-size: 30px;
+    }
+    .satistique{
+        font-size:  30px;
+    }
+    .section5{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+  
+    main .btn_decouvrir{
+        border: 2px solid var(--rouge);
+        background-color: white;
+        color: var(--rouge);
+        padding: 15px;
+        width: auto;
+        font-weight: bolder;
+        font-size: 20px;
+
+    
+    }
+    
+}
+
+
