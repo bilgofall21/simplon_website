@@ -80,31 +80,31 @@ header .headTete{
     
 }
 /* impact */
-main .card1s{
+header .card1s{
    display: grid;
    grid-template-columns: 20% 20% 20% 20%;
    justify-content: center;
    margin: 0 auto;
    position: relative;
-   top: 50px;
+   top: 20%;
 }
-main .card1s .card1 {
+header .card1s .card1 {
     background-color: var(--simplon_color);
     padding: 30px 20px;
     margin: 10px;
 
 }
-main .cards .card1 .body-card1{
+header .cards .card1 .body-card1{
     color: var(--blanc);
 
 }
-main .cards .card1 .body-card1 p{
+header .cards .card1 .body-card1 p{
     margin: 0;
 
 }
 /* section formations */
 #formations{
-    margin-top: 100px;
+    margin-top: 15%;
 }
 hr{
     height: 2px !important;
@@ -166,4 +166,75 @@ hr{
     margin: 0 auto;
     display: flex;
     justify-content: center;
+}
+
+/* @media  screen and (min-width : 768px ) and (max-width : 1024px){
+    .card1s{
+        display: grid;
+        grid-template-columns: 20% 20% !important;
+        background-color: purple;
+    }
+} */
+@media  screen and (min-width : 576px ) and (max-width : 768px) {
+    .card1s{
+        display: grid;
+        grid-template-columns: 30% 30% !important;
+        position: relative;
+        top: 13% !important;
+        /* background-color: yellow; */
+
+    }
+    #formations{
+        margin-top: 50% !important;
+    }
+}
+@media  screen and (min-width : 480px )and (max-width : 576px ) {
+    .card1s{
+        display: grid;
+        grid-template-columns: 50% !important;
+
+    }
+    #formations{
+        margin-top: 115% !important;
+    }
+}
+@media  screen and (min-width : 430px ) and (max-width : 480px ){
+    .card1s{
+        display: grid;
+        grid-template-columns: 50% !important;
+
+    }
+    #formations{
+        margin-top: 150% !important;
+    }
+}
+@media  screen and (min-width : 370px ) and (max-width : 430px ){
+    .card1s{
+        display: grid;
+        grid-template-columns: 50% !important;
+
+    }
+    #formations{
+        margin-top: 190% !important;
+    }
+}
+@media  screen and (min-width : 300px ) and (max-width : 370px ){
+    .card1s{
+        display: grid;
+        grid-template-columns: 50% !important;
+
+    }
+    #formations{
+        margin-top: 250% !important;
+    }
+}
+@media  screen and (max-width : 300px ){
+    .card1s{
+        display: grid;
+        grid-template-columns: 50% !important;
+
+    }
+    #formations{
+        margin-top: 300% !important;
+    }
 }
