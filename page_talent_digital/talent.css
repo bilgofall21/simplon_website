@@ -8,6 +8,24 @@
 :root {
     --redsimplon : #CE0033;
 }
+.digitalquestion{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+.digitalquestion .imgdigital{
+
+}
+.digitalquestion .imgdigital img{
+    height: 230px;
+    width: 100%;
+    
+}
+
+.digitalquestion .textedigital{
+height: 230px;
+}
+
 
 .number{
     display: grid;
@@ -59,4 +77,9 @@ height: 230px;
 }
 .digitalsolution .solutionlist{
 
+}
+
+/* Media query */
+@media (max-width:1190px){
+    
 }
