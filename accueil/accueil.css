@@ -1,0 +1,169 @@
+:root{
+    --simplon_color:#a4082f;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+/* debut design header */
+#logo{
+    /* border: 1px solid red; */
+    height: 15vh;
+    width: 100%;
+}
+#navbarSupportedContent .nav-item .nav-link{
+    color:black !important;
+}
+header .Tete{
+    background-color: #a4082f;
+
+}
+header .Tete .teteContainer{
+    display: flex;
+    padding: 4px 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .headTete{
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.icones{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icones .sociaux{
+    margin-left: 15px;
+    padding: 2px 4px;
+    width: 15%;
+    border-radius: 50%;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* fin design header */
+
+/* .nav-fixed {
+    box-shadow: 0 2px 8px #95959E;
+    position: fixed;
+    width: 100%;
+} */
+/* main{
+    margin-top: 8%;
+    background-color: red;
+} */
+#banner{
+    background: linear-gradient(0deg, #0000008f, #0000008f), url("../images/bg.jpg");
+    height: 70vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    width: 100%;
+    background-position: center;
+    color: white;
+
+}
+#banner p{
+    margin: 0 auto;
+    text-align: center;
+}
+#btn-contact{
+    background-color: transparent;
+    color: white;
+    
+}
+/* impact */
+main .card1s{
+   display: grid;
+   grid-template-columns: 20% 20% 20% 20%;
+   justify-content: center;
+   margin: 0 auto;
+   position: relative;
+   top: 50px;
+}
+main .card1s .card1 {
+    background-color: var(--simplon_color);
+    padding: 30px 20px;
+    margin: 10px;
+
+}
+main .cards .card1 .body-card1{
+    color: var(--blanc);
+
+}
+main .cards .card1 .body-card1 p{
+    margin: 0;
+
+}
+/* section formations */
+#formations{
+    margin-top: 100px;
+}
+hr{
+    height: 2px !important;
+    border-color: var(--simplon_color) ;
+    text-align: center;
+    width: 10%;
+    margin: 0 auto;
+}
+#formations .card img{
+    height:200px !important;
+}
+#formations .card button , #temoignages .card button {
+    border-color: var(--simplon_color);
+    color: var(--simplon_color);
+    border-width: 2px !important;
+}
+#formations .card button a , #temoignages .card button a{
+    color: var(--simplon_color);
+}
+
+/* section formations-partenariat */
+#formations-partenariat .card-body p{
+    font-size: 13px !important;
+}
+#formations-partenariat .card button , #actualites .card button {
+    background-color: var(--simplon_color);
+}
+#formations-partenariat .card button a ,#actualites .card button a {
+    color: white;
+}
+
+/* actualités  */
+
+#actualites .card{
+    color: white;
+    height: 40vh;
+}
+#actualites .card2{
+    background: linear-gradient(0deg, #000000bd, #000000bd), url("https://img.freepik.com/photos-gratuite/groupe-multiethnique-jeunes-hommes-femmes-etudiant-interieur_1139-989.jpg?size=626&ext=jpg&ga=GA1.1.212687153.1691348973&semt=sph");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    background-position: center;
+}
+#actualites .card1{
+    background: linear-gradient(0deg, #000000bd, #000000bd), url("https://img.freepik.com/photos-gratuite/gros-plan-etudiants-qui-etudient-ensemble_23-2148913243.jpg?size=626&ext=jpg&ga=GA1.1.212687153.1691348973&semt=ais");
+    background-repeat: no-repeat;
+    margin: 0;
+    background-position: center;
+    color: white;
+}
+#actualites .card button {
+    background-color: var(--simplon_color);
+}
+#formations-partenariat .card button a ,#actualites .card button a {
+    color: white;
+}
+#actualites .card button {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}

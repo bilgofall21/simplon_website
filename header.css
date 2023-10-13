@@ -1,0 +1,72 @@
+:root{
+    --simplon_color:#CE0033;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+/* debut design header */
+#logo{
+    /* border: 1px solid red; */
+    height: 15vh;
+    width: 100%;
+}
+#navbarSupportedContent .nav-item .nav-link{
+    color:black !important;
+}
+header .Tete{
+    background-color: #CE0033;
+
+}
+header .Tete .teteContainer{
+    display: flex;
+    padding: 4px 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .headTete{
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.icones{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icones .sociaux{
+    margin-left: 15px;
+    padding: 2px 4px;
+    width: 15%;
+    border-radius: 50%;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* fin design header */
+
+/* .nav-fixed {
+    box-shadow: 0 2px 8px #95959E;
+    position: fixed;
+    width: 100%;
+} */
+/* main{
+    margin-top: 8%;
+    background-color: red;
+} */
+#banner{
+    background: linear-gradient(0deg, #0000008f, #0000008f), url("../images/bg.jpg");
+    height: 45vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    width: 100%;
+    background-position: center;
+    color: white;
+
+}

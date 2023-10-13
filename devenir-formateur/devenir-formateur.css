@@ -1,0 +1,18 @@
+.bg-simplon{
+    background-color: var(--simplon_color);
+    color: white;
+}
+.card p{
+    font-size: 13px;
+    text-align: justify;
+}
+#content .list-group  .active{
+    background-color: var(--simplon_color) !important;
+}
+#content .list-group-item{
+    font-size: 13px;
+}
+ p{
+    font-size: 12px;
+
+}
