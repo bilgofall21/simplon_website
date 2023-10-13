@@ -61,7 +61,7 @@ header .headTete{
 } */
 #banner{
     background: linear-gradient(0deg, #0000008f, #0000008f), url("../images/bg.jpg");
-    height: 70vh;
+    height: 90vh;
     background-size: cover;
     background-repeat: no-repeat;
     margin: 0;
