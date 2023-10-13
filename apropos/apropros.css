@@ -8,23 +8,29 @@
 }
 /* premiere section de qui sommes nous */
 main .topmain {
-    background:linear-gradient(0deg, rgba(99, 91, 103, 0.9), rgba(15, 20, 25, 0.9)), url("https://as2.ftcdn.net/v2/jpg/01/87/54/15/1000_F_187541525_Cwm9BoCnhYKYBqEjfBdsd32QXX6FYQIa.jpg"), no-repeat; 
-    height: 32vh;
+    background-image: url("https://img.freepik.com/premium-photo/senior-manager-is-sitting-boardroom-with-multiracial-colleagues-discussing-project_232070-16425.jpg?size=626&ext=jpg&ga=GA1.1.410106095.1694595730&semt=sph"); 
+    height: 50vh;
     color: white;
     text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     
 }
 main .topmain h1{
-    padding-top: 3%;
+    padding-top: 5%;
     font-size: 25px;
+    /* border: 1px solid red; */
 }
 main .topmain p{
+  margin-top: 1%;
     font-size: 14px ;
 }
 main .topmain .retour{
     text-align: left ;
     margin-left: 2%;
-    margin-bottom: 83% ;
+    margin-top: 8%;
+    /* border: 1px solid red; */
 }
 main .topmain .retour a{
     color: white;
