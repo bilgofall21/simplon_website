@@ -1,0 +1,27 @@
+.formations .list-group  .active{
+    background-color: var(--simplon_color) !important;
+}
+.formations .list-group-item{
+    font-size: 13px;
+}
+.formations .card div  .btn1 {
+    border-color: black;
+}
+.formations .card div  .btn2 {
+    background-color: var(--simplon_color);
+}
+.formations .card div  button a{
+    color: white;
+
+}
+.formations .card div  .btn1 a {
+    color: black;
+    font-size: 13px;
+}
+.formations .border-start{
+    border-color: var(--simplon_color) !important;
+    border-width: 2px;
+}
+/* .formations i{
+    color: var(--simplon_color);
+} */
