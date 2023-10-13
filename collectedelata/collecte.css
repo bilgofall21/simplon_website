@@ -27,7 +27,7 @@ main .banniere .retour a{
 main .topcollecte {
     width: 80%;
     height: 70vh;
-    margin: 2% auto;
+    margin: 3% auto;
     /* border: 1px solid red; */
 }
 main .topcollecte .topcollectebis{
@@ -50,18 +50,18 @@ main .topcollecte .topcollectebis button{
 main .topcollecte .topcollectebis img{
     /* border: 1px solid pink; */
     position: absolute;
-    left: 47%;
-    top: 52%;
+    left: 49%;
+    top: 70%;
     width: 43%;
     height: 60%;
     border-radius: 2%;
     box-shadow: 1px 1px;
 }
 main .bottomcollecte{
-    /* border: 1px solid red; */
+    border: 1px solid red;
     width: 80%;
-    height: 50vh;
-    margin: 8% auto;
+    height: 38vh;
+    margin: 5% auto;
     text-align: center;
 }
 main .bottomcollecte h3{

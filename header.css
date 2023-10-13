@@ -60,7 +60,7 @@ header .headTete{
     background-color: red;
 } */
 #banner{
-    background: linear-gradient(0deg, #0000008f, #0000008f), url("../images/bg.jpg");
+    background: linear-gradient(0deg, #0000008f, #0000008f), url("image");
     height: 45vh;
     background-size: cover;
     background-repeat: no-repeat;
@@ -70,3 +70,7 @@ header .headTete{
     color: white;
 
 }
+
+
+/* footer css */
+
