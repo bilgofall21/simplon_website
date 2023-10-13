@@ -6,6 +6,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link rel="stylesheet" href="accueil.css">
+    <!-- <link rel="stylesheet" href="../menu/header_footer.css"> -->
+    <!-- <link rel="stylesheet" href="../header.css"> -->
     <title>Accueil</title>
 </head>
 <body>
@@ -13,404 +15,713 @@
   <!-- faire animations pour partenanires -->
   <!-- fixer le header  -->
   <!-- gerer responsivite -->
-    <header>
-        <section class="Tete">
-            <div class="container-fluid">
-                <div class="teteContainer">
-                    <div class="traduction">
-                        <button>EN</button>
-                        <button>FR</button>
-                    </div>
-                    <div class="icones">
-                        <span class="sociaux"><a href="#"><i class="fa-brands fa-twitter" style="color: #ffffff;"></i></a></span>
-                        <span class="sociaux"><a href="#"><i class="fa-brands fa-facebook-f" style="color: #ffffff;"></i></a></span>
-                        <span class="sociaux"><a href="#"><i class="fa-brands fa-linkedin-in" style="color: #ffffff;"></i></a></span>
-                        <span class="sociaux"><a href="#"><i class="fa-brands fa-instagram" style="color: #ffffff;"></i></a></span>
-                        <span class="sociaux"><a href="#"><i class="fa-brands fa-youtube" style="color: #ffffff;"></i></a></span>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <nav class="nav-fixed navbar navbar-expand-lg">
-            <div class="container-fluid d-flex justify-content-between">
-                <div>
-                    <a class="navbar-brand" href="#"><img src="../images/logosimplon.png" id="logo" alt=""></a>
-                </div>
-                <div>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                      <span class="navbar-toggler-icon"></span>
-                    </button>
-      
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                          <a class="nav-link active" aria-current="page" href="#">Accueil</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                              A propos
-                            </a>
-                            <ul class="dropdown-menu">
-                              <li><a class="dropdown-item" href="#">Qui sommes nous?</a></li>
-                              <li><a class="dropdown-item" href="#">Notre pedagogie</a></li>
-                              <li><a class="dropdown-item" href="#">Notre Réeau de fabrique</a></li>
-                              <li><a class="dropdown-item" href="#">Nos actions pour un numérique inclusif </a></li>
-                              <li><a class="dropdown-item" href="#">Anti-Faq </a></li>
-                              <!-- <li><hr class="dropdown-divider"></li>
-                              <li><a class="dropdown-item" href="#">Something else here</a></li> -->
-                            </ul>
-                          </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Nos formations
-                            </a>
-                            <ul class="dropdown-menu">
-                              <li><a class="dropdown-item" href="#">Formations</a></li>
-                              <li><a class="dropdown-item" href="#">Se former à la blockchain</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Candidats
-                            </a>
-                            <ul class="dropdown-menu">
-                              <li><a class="dropdown-item" href="#">Candidater</a></li>
-                              <li><a class="dropdown-item" href="#">Valider ses acquis par le VAE</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Sociales
-                            </a>
-                            <ul class="dropdown-menu">
-                              <li><a class="dropdown-item" href="#">Nos actions pour les femmes</a></li>
-                              <li><a class="dropdown-item" href="#">Personne en situation de handicap</a></li>
-                              <li><a class="dropdown-item" href="#">Actions pour les réfugiés</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Entreprises
-                            </a>
-                            <ul class="dropdown-menu">
-                              <li><a class="dropdown-item" href="#">Former ses salariés</a></li>
-                              <li><a class="dropdown-item" href="#">Collecte de la TA 2023</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" aria-disabled="true">Contact</a>
-                        </li>
-                      </ul>
-                    </div>
-                </div>
-            </div>
-          </nav>
-    </header>
-    <main>
-        <section id="banner">
-            <div class="pt-5">
-                <h3 class="text-center">
-                    Simplon Formation Numerique
-                </h3>
-                <p class="w-75">
-                    Simplon, l’école qui forme aux métiers du numérique dans toute la France et à l’international.​​​​​​​Rejoignez un réseau 
-                    de plus de 25 000 apprenants et apprenantes. ​​​​​​​Vous souhaitez vous aussi intégrer un parcours de formation Simplon ou être conseillé-e dans votre parcours ?
-                </p>
-            </div>
-            <div class="d-flex justify-content-center mt-5">
-                <button type="button" id="btn-contact" class="btn mx-2 border">Contactez-nous</button>
-                <button type="button" id="btn-decouvrir" class="btn btn-light mx-2">Decouvrez notre offre de formation</button>
-            </div>
-            <div class="card1s">
-                <div class="card1">
-                    <div class="body-card1 text-center">
-                        <p class="fw-bold fs-4">25000</p>
-                        <p>Simploniens et Simplonniennes</p>
-                    </div>
-                </div>
-                <div class="card1">
-                    <div class="body-card1 text-center">
-                        <p class="fw-bold fs-4">103</p>
-                        <p>Fabriques dans le monde</p>
-                    </div>
-                </div>
-                <div class="card1">
-                    <div class="body-card1 text-center">
-                        <p class="fw-bold fs-4">1577</p>
-                        <p>Salariés</p>
-                    </div>
-                </div>
-                <div class="card1">
-                    <div class="body-card1 text-center">
-                        <p class="fw-bold fs-4">37,6%</p>
-                        <p>D'apprenantes formées au sein de nos Fabriques</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section id="formations">
-            <h5 class="text-center">
-                Des formatons aux métiers du numerique pour tous
-            </h5>
-            <hr class="border-2 opacity-100">
-            <div class="container mt-4">
-                <div class="row row-cols-1 row-cols-md-3 g-4">
-                    <div class="col">
-                      <div class="card">
-                        <img src="https://img.freepik.com/photos-gratuite/insigne-securite-internet-3d_1048-18106.jpg?w=740&t=st=1697026075~exp=1697026675~hmac=c3fd3bfea3c4b7b0b0b8dbe02fd8086cdbc9533e77dc8acdaa228825e7d56086" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title">Infrastructures​​​​​​​ et Cybersécurité</h5>
-                          <p class="card-text">La cybersécurité est un enjeu stratégique pour toute entreprise en transition numérique. ​​​​​​Vous souhaitez rejoindre les rangs des métiers de la cybersécurité ?</p>
-                          <div class="d-flex justify-content-center">
-                              <button class="btn"><a href="" class="text-decoration-none">Decouvrez nos formations</a> </button>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col">
-                      <div class="card">
-                        <img src="https://img.freepik.com/photos-gratuite/insigne-securite-internet-3d_1048-18106.jpg?w=740&t=st=1697026075~exp=1697026675~hmac=c3fd3bfea3c4b7b0b0b8dbe02fd8086cdbc9533e77dc8acdaa228825e7d56086" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title">Infrastructures​​​​​​​ et Cybersécurité</h5>
-                          <p class="card-text">La cybersécurité est un enjeu stratégique pour toute entreprise en transition numérique. ​​​​​​Vous souhaitez rejoindre les rangs des métiers de la cybersécurité ?</p>
-                          <div class="d-flex justify-content-center">
-                              <button class="btn"><a href="" class="text-decoration-none">Decouvrez nos formations</a> </button>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col">
-                      <div class="card">
-                        <img src="https://img.freepik.com/photos-gratuite/insigne-securite-internet-3d_1048-18106.jpg?w=740&t=st=1697026075~exp=1697026675~hmac=c3fd3bfea3c4b7b0b0b8dbe02fd8086cdbc9533e77dc8acdaa228825e7d56086" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title">Infrastructures​​​​​​​ et Cybersécurité</h5>
-                          <p class="card-text">La cybersécurité est un enjeu stratégique pour toute entreprise en transition numérique. ​​​​​​Vous souhaitez rejoindre les rangs des métiers de la cybersécurité ?</p>
-                          <div class="d-flex justify-content-center">
-                              <button class="btn"><a href="" class="text-decoration-none">Decouvrez nos formations</a> </button>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col">
-                      <div class="card">
-                        <img src="https://img.freepik.com/photos-gratuite/insigne-securite-internet-3d_1048-18106.jpg?w=740&t=st=1697026075~exp=1697026675~hmac=c3fd3bfea3c4b7b0b0b8dbe02fd8086cdbc9533e77dc8acdaa228825e7d56086" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title">Infrastructures​​​​​​​ et Cybersécurité</h5>
-                          <p class="card-text">La cybersécurité est un enjeu stratégique pour toute entreprise en transition numérique. ​​​​​​Vous souhaitez rejoindre les rangs des métiers de la cybersécurité ?</p>
-                          <div class="d-flex justify-content-center">
-                              <button class="btn"><a href="" class="text-decoration-none">Decouvrez nos formations</a> </button>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col">
-                      <div class="card">
-                        <img src="https://img.freepik.com/photos-gratuite/insigne-securite-internet-3d_1048-18106.jpg?w=740&t=st=1697026075~exp=1697026675~hmac=c3fd3bfea3c4b7b0b0b8dbe02fd8086cdbc9533e77dc8acdaa228825e7d56086" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title">Infrastructures​​​​​​​ et Cybersécurité</h5>
-                          <p class="card-text">La cybersécurité est un enjeu stratégique pour toute entreprise en transition numérique. ​​​​​​Vous souhaitez rejoindre les rangs des métiers de la cybersécurité ?</p>
-                          <div class="d-flex justify-content-center">
-                              <button class="btn"><a href="" class="text-decoration-none">Decouvrez nos formations</a> </button>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col">
-                      <div class="card">
-                        <img src="https://img.freepik.com/photos-gratuite/insigne-securite-internet-3d_1048-18106.jpg?w=740&t=st=1697026075~exp=1697026675~hmac=c3fd3bfea3c4b7b0b0b8dbe02fd8086cdbc9533e77dc8acdaa228825e7d56086" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title">Infrastructures​​​​​​​ et Cybersécurité</h5>
-                          <p class="card-text">La cybersécurité est un enjeu stratégique pour toute entreprise en transition numérique. ​​​​​​Vous souhaitez rejoindre les rangs des métiers de la cybersécurité ?</p>
-                          <div class="d-flex justify-content-center">
-                              <button class="btn"><a href="" class="text-decoration-none">Decouvrez nos formations</a> </button>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-            </div>
-        </section>
-        <section id="formations-partenariat" class="mt-5">
-            <h5 class="text-center">
-                Nos formations en partenariat
-            </h5>
-            <hr class="border-2 opacity-100">
-            <div class="container mt-5">
-                <div class="row row-cols-1 row-cols-md-2 g-4">
-                    <div class="col">
-                        <div class="card mb-3" style="max-width: 540px;">
-                            <div class="row g-0">
-                              <div class="col-md-4">
-                                <img src="https://simplon.co/uploads/Site%20national/Home-site-national/Logo-Apple-fondation-Program.png" class="img-fluid rounded-start" alt="...">
-                              </div>
-                              <div class="col-md-8">
-                                <div class="card-body">
-                                  <h5 class="card-title">Formation Apple Foundation Program</h5>
-                                  <p class="card-text">Initiez-vous avec Simplon et Apple à la conception d'une application mobile. Pour ajouter une corde à votre arc de développeur-se, ou pour entamer un parcours dans le numérique, l'Apple Foundation Program est accessible aux débutants comme aux plus confirmés.</p>
-                                  <div class="w-100">
-                                    <button class="btn w-100"><a href="" class="text-decoration-none">Decouvez l’apple foundation program</a> </button>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                    </div>
-                    <div class="col">
-                        <div class="card mb-3" style="max-width: 540px;">
-                            <div class="row g-0">
-                              <div class="col-md-4">
-                                <img src="https://simplon.co/uploads/Site%20national/Home-site-national/Logo-Apple-fondation-Program.png" class="img-fluid rounded-start" alt="...">
-                              </div>
-                              <div class="col-md-8">
-                                <div class="card-body">
-                                  <h5 class="card-title">Formation Apple Foundation Program</h5>
-                                  <p class="card-text">Initiez-vous avec Simplon et Apple à la conception d'une application mobile. Pour ajouter une corde à votre arc de développeur-se, ou pour entamer un parcours dans le numérique, l'Apple Foundation Program est accessible aux débutants comme aux plus confirmés.</p>
-                                  <div class="w-100">
-                                    <button class="btn w-100"><a href="" class="text-decoration-none">Decouvez l’apple foundation program</a> </button>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                    </div>
-                    <div class="col">
-                        <div class="card mb-3" style="max-width: 540px;">
-                            <div class="row g-0">
-                              <div class="col-md-4">
-                                <img src="https://simplon.co/uploads/Site%20national/Home-site-national/Logo-Apple-fondation-Program.png" class="img-fluid rounded-start" alt="...">
-                              </div>
-                              <div class="col-md-8">
-                                <div class="card-body">
-                                  <h5 class="card-title">Formation Apple Foundation Program</h5>
-                                  <p class="card-text">Initiez-vous avec Simplon et Apple à la conception d'une application mobile. Pour ajouter une corde à votre arc de développeur-se, ou pour entamer un parcours dans le numérique, l'Apple Foundation Program est accessible aux débutants comme aux plus confirmés.</p>
-                                  <div class="w-100">
-                                    <button class="btn w-100"><a href="" class="text-decoration-none">Decouvez l’apple foundation program</a> </button>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                    </div>
-                    <div class="col">
-                        <div class="card mb-3" style="max-width: 540px;">
-                            <div class="row g-0">
-                              <div class="col-md-4">
-                                <img src="https://simplon.co/uploads/Site%20national/Home-site-national/Logo-Apple-fondation-Program.png" class="img-fluid rounded-start" alt="...">
-                              </div>
-                              <div class="col-md-8">
-                                <div class="card-body">
-                                  <h5 class="card-title">Formation Apple Foundation Program</h5>
-                                  <p class="card-text">Initiez-vous avec Simplon et Apple à la conception d'une application mobile. Pour ajouter une corde à votre arc de développeur-se, ou pour entamer un parcours dans le numérique, l'Apple Foundation Program est accessible aux débutants comme aux plus confirmés.</p>
-                                  <div class="w-100">
-                                    <button class="btn w-100"><a href="" class="text-decoration-none">Decouvez l’apple foundation program</a> </button>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                    </div>
-                   
-                  </div>
-            </div>
-        </section>
-        <section id="temoignages" class="mt-5">
-            <h5 class="text-center">
-                Des formatons aux métiers du numerique pour tous
-            </h5>
-            <hr class="border-2 opacity-100">
-            <div class="container mt-4">
-                <div class="row row-cols-1 row-cols-md-3 g-4">
-                    <div class="col">
-                      <div class="card">
-                        <img src="https://img.freepik.com/photos-gratuite/blogueuse-occasionnelle-interviewant-homme-pour-son-vlog_23-2148538884.jpg?w=826&t=st=1697030859~exp=1697031459~hmac=8f45e379027bb0d0cb598a07d1219b6aa575a373c028940a80b0a0943d81117a" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title text-center">LISA</h5>
-                          <p class="card-text">Developpeuse IOS apres une reconversion avec Apple Found</p>
-                          <div class="d-flex justify-content-center">
-                              <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#video1">Voir la video de temoignage</button>
-                            <!-- Modal -->
-                            <div class="modal fade" id="video1" tabindex="-1" aria-labelledby="video1Label" aria-hidden="true">
-                                <div class="modal-dialog modal-lg">
-                                    <div class="modal-content">
-                                        <iframe width="auto" height="400" src="https://www.youtube.com/embed/A_-HlFvXGQs" title="Lisa, Développeuse iOS après une reconversion avec l&#39;Apple Foundation Program" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                                    </div>
-                                </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col">
-                      <div class="card">
-                        <img src="https://img.freepik.com/photos-gratuite/blogueur-enregistrant-video_53876-137554.jpg?size=626&ext=jpg&ga=GA1.2.212687153.1691348973&semt=sph" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title text-center">LISA</h5>
-                            <p class="card-text">Developpeuse IOS apres une reconversion avec Apple Found</p>
-                          <div class="d-flex justify-content-center">
-                            <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#video2">Voir la video de temoignage</button>
-                            <!-- Modal -->
-                            <div class="modal fade" id="video2" tabindex="-1" aria-labelledby="video2Label" aria-hidden="true">
-                                <div class="modal-dialog modal-lg">
-                                    <div class="modal-content">
-                                        <iframe width="auto" height="400" src="https://www.youtube.com/embed/xTb_SveYNcg" title="Lauryn Ornella, devenue développeuse iOS après un parcours scolaire atypique" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>                                    </div>
-                                </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col">
-                      <div class="card">
-                        <img src="https://img.freepik.com/photos-gratuite/femmes-defocalises-faisant-interview-radio-microphone_23-2148808731.jpg?size=626&ext=jpg&ga=GA1.2.212687153.1691348973&semt=sph" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title text-center">LISA</h5>
-                            <p class="card-text">Developpeuse IOS apres une reconversion avec Apple Found</p>
-                          <div class="d-flex justify-content-center">
-                            <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">Voir la video de temoignage</button>
-                            <!-- Modal -->
-                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                <div class="modal-dialog modal-lg">
-                                    <div class="modal-content">
-                                        <iframe width="auto" height="400" src="https://www.youtube.com/embed/8wjznNpQxZQ" title="Anthoni, Apprenant de l&#39;École Cyber Microsoft by Simplon 🚀 s&#39;orienter dans la cybersécurité" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>                                    </div>
-                                </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-            </div>
-        </section>
-        <section id="actualites" class="mt-5">
-            <h5 class="text-center">
-                Nos actualités
-            </h5>
-            <hr class="border-2 opacity-100">
-            <div class="container mt-5">
-                <div class="row row-cols-1 row-cols-md-2 g-4">
-                    <div class="col">
-                      <div class="card card1">
-                        <div class="card-body mt-5">
-                          <h6 class="card-title text-center">Découvrez nos formations en alternance chez Simplon.co</h6>
-                          <button class="btn"><a href="" class="text-decoration-none">Nos parcours en alternance</a> </button>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col">
-                      <div class="card card2">
-                        <div class="card-body mt-5">
-                            <h6 class="card-title text-center">Découvrez notre prochaine réunion d'information sur les métiers de la tech : boostez votre carrière dans le numérique !</h6>
-                            <button class="btn"><a href="" class="text-decoration-none">S’inscrire des maintenant</a> </button>
-                          </div>
-                      </div>
-                    </div>    
-                  </div>
-            </div>
-        </section>
+  <header class="fixed-top">
+    <section class="Tete">
+      <div class="container-fluid">
+        <div class="teteContainer">
+          <div class="traduction">
+            <button>EN</button>
+            <button>FR</button>
+          </div>
+          <div class="icones">
+            <span class="sociaux"
+              ><a href="#"
+                ><i
+                  class="fa-brands fa-twitter"
+                  style="color: #ffffff"
+                ></i></a
+            ></span>
+            <span class="sociaux"
+              ><a href="#"
+                ><i
+                  class="fa-brands fa-facebook-f"
+                  style="color: #ffffff"
+                ></i></a
+            ></span>
+            <span class="sociaux"
+              ><a href="#"
+                ><i
+                  class="fa-brands fa-linkedin-in"
+                  style="color: #ffffff"
+                ></i></a
+            ></span>
+            <span class="sociaux"
+              ><a href="#"
+                ><i
+                  class="fa-brands fa-instagram"
+                  style="color: #ffffff"
+                ></i></a
+            ></span>
+            <span class="sociaux"
+              ><a href="#"
+                ><i
+                  class="fa-brands fa-youtube"
+                  style="color: #ffffff"
+                ></i></a
+            ></span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid d-flex justify-content-between">
+        <div>
+          <a class="navbar-brand" href="#"
+            ><img src="../menu/menu_image/logosimplon.png" id="logo" alt=""
+          /></a>
+        </div>
+        <div>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
-    </main>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Accueil</a
+                >
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  A propos
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="../apropos/apropros.html">Qui sommes nous?</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="../pedagogie_simplon/pedagogie_simplon.html">Notre pedagogie</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="../reseau_fabrique_simplon/reseau_fabrique_simplon.html"
+                      >Notre Réeau de fabrique</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="../actionnumerique/action.html"
+                      >Nos actions pour un numérique inclusif
+                    </a>
+                  </li>
+                  <li><a class="dropdown-item" href="../faq/faq.html">Anti-Faq </a></li>
+                  <!-- <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li> -->
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Nos formations
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="../formations/formation.html">Formations</a></li>
+                  <li>
+                    <a class="dropdown-item" href="../page_blockchain/block_chain.html"
+                      >Se former à la blockchain</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Candidats
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="../page-candidater/candidater.html">Candidater</a></li>
+                  <li>
+                    <a class="dropdown-item" href="../validationacquis/validationacquis.html"
+                      >Valider ses acquis par le VAE</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Sociales
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="../action_pour_femmes/action_femme.html"
+                      >Nos actions pour les femmes</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="../handicap_accessibilite_numerique/handicap.html"
+                      >Personne en situation de handicap</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="../action_pour_refugiés/action_pour_les_refugies.html"
+                      >Actions pour les réfugiés</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Entreprises
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="../simplon_corp/simplon_corp.html">Former ses salariés</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="../collectedelata/collecte.html"
+                      >Collecte de la TA 2023</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a href="../page_contact/contact.html" class="nav-link" aria-disabled="true">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+ 
+  <main>
+    <section id="banner">
+        <div class="pt-5">
+            <h3 class="text-center">
+                Simplon Formation Numerique
+            </h3>
+            <p class="w-75">
+                Simplon, l’école qui forme aux métiers du numérique dans toute la France et à l’international.​​​​​​​Rejoignez un réseau 
+                de plus de 25 000 apprenants et apprenantes. ​​​​​​​Vous souhaitez vous aussi intégrer un parcours de formation Simplon ou être conseillé-e dans votre parcours ?
+            </p>
+        </div>
+        <div class="d-flex justify-content-center mt-5">
+            <button type="button" id="btn-contact" class="btn mx-2 border">Contactez-nous</button>
+            <button type="button" id="btn-decouvrir" class="btn btn-light mx-2">Decouvrez notre offre de formation</button>
+        </div>
+        <div class="card1s">
+            <div class="card1">
+                <div class="body-card1 text-center">
+                    <p class="fw-bold fs-4">25000</p>
+                    <p>Simploniens et Simplonniennes</p>
+                </div>
+            </div>
+            <div class="card1">
+                <div class="body-card1 text-center">
+                    <p class="fw-bold fs-4">103</p>
+                    <p>Fabriques dans le monde</p>
+                </div>
+            </div>
+            <div class="card1">
+                <div class="body-card1 text-center">
+                    <p class="fw-bold fs-4">1577</p>
+                    <p>Salariés</p>
+                </div>
+            </div>
+            <div class="card1">
+                <div class="body-card1 text-center">
+                    <p class="fw-bold fs-4">37,6%</p>
+                    <p>D'apprenantes formées au sein de nos Fabriques</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="formations">
+        <h5 class="text-center">
+            Des formatons aux métiers du numerique pour tous
+        </h5>
+        <hr class="border-2 opacity-100">
+        <div class="container mt-4">
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                  <div class="card">
+                    <img src="https://img.freepik.com/photos-gratuite/insigne-securite-internet-3d_1048-18106.jpg?w=740&t=st=1697026075~exp=1697026675~hmac=c3fd3bfea3c4b7b0b0b8dbe02fd8086cdbc9533e77dc8acdaa228825e7d56086" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Infrastructures​​​​​​​ et Cybersécurité</h5>
+                      <p class="card-text">La cybersécurité est un enjeu stratégique pour toute entreprise en transition numérique. ​​​​​​Vous souhaitez rejoindre les rangs des métiers de la cybersécurité ?</p>
+                      <div class="d-flex justify-content-center">
+                          <button class="btn"><a href="" class="text-decoration-none">Decouvrez nos formations</a> </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="https://img.freepik.com/photos-gratuite/insigne-securite-internet-3d_1048-18106.jpg?w=740&t=st=1697026075~exp=1697026675~hmac=c3fd3bfea3c4b7b0b0b8dbe02fd8086cdbc9533e77dc8acdaa228825e7d56086" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Infrastructures​​​​​​​ et Cybersécurité</h5>
+                      <p class="card-text">La cybersécurité est un enjeu stratégique pour toute entreprise en transition numérique. ​​​​​​Vous souhaitez rejoindre les rangs des métiers de la cybersécurité ?</p>
+                      <div class="d-flex justify-content-center">
+                          <button class="btn"><a href="" class="text-decoration-none">Decouvrez nos formations</a> </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="https://img.freepik.com/photos-gratuite/insigne-securite-internet-3d_1048-18106.jpg?w=740&t=st=1697026075~exp=1697026675~hmac=c3fd3bfea3c4b7b0b0b8dbe02fd8086cdbc9533e77dc8acdaa228825e7d56086" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Infrastructures​​​​​​​ et Cybersécurité</h5>
+                      <p class="card-text">La cybersécurité est un enjeu stratégique pour toute entreprise en transition numérique. ​​​​​​Vous souhaitez rejoindre les rangs des métiers de la cybersécurité ?</p>
+                      <div class="d-flex justify-content-center">
+                          <button class="btn"><a href="" class="text-decoration-none">Decouvrez nos formations</a> </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="https://img.freepik.com/photos-gratuite/insigne-securite-internet-3d_1048-18106.jpg?w=740&t=st=1697026075~exp=1697026675~hmac=c3fd3bfea3c4b7b0b0b8dbe02fd8086cdbc9533e77dc8acdaa228825e7d56086" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Infrastructures​​​​​​​ et Cybersécurité</h5>
+                      <p class="card-text">La cybersécurité est un enjeu stratégique pour toute entreprise en transition numérique. ​​​​​​Vous souhaitez rejoindre les rangs des métiers de la cybersécurité ?</p>
+                      <div class="d-flex justify-content-center">
+                          <button class="btn"><a href="" class="text-decoration-none">Decouvrez nos formations</a> </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="https://img.freepik.com/photos-gratuite/insigne-securite-internet-3d_1048-18106.jpg?w=740&t=st=1697026075~exp=1697026675~hmac=c3fd3bfea3c4b7b0b0b8dbe02fd8086cdbc9533e77dc8acdaa228825e7d56086" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Infrastructures​​​​​​​ et Cybersécurité</h5>
+                      <p class="card-text">La cybersécurité est un enjeu stratégique pour toute entreprise en transition numérique. ​​​​​​Vous souhaitez rejoindre les rangs des métiers de la cybersécurité ?</p>
+                      <div class="d-flex justify-content-center">
+                          <button class="btn"><a href="" class="text-decoration-none">Decouvrez nos formations</a> </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="https://img.freepik.com/photos-gratuite/insigne-securite-internet-3d_1048-18106.jpg?w=740&t=st=1697026075~exp=1697026675~hmac=c3fd3bfea3c4b7b0b0b8dbe02fd8086cdbc9533e77dc8acdaa228825e7d56086" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Infrastructures​​​​​​​ et Cybersécurité</h5>
+                      <p class="card-text">La cybersécurité est un enjeu stratégique pour toute entreprise en transition numérique. ​​​​​​Vous souhaitez rejoindre les rangs des métiers de la cybersécurité ?</p>
+                      <div class="d-flex justify-content-center">
+                          <button class="btn"><a href="" class="text-decoration-none">Decouvrez nos formations</a> </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+    </section>
+    <section id="formations-partenariat" class="mt-5">
+        <h5 class="text-center">
+            Nos formations en partenariat
+        </h5>
+        <hr class="border-2 opacity-100">
+        <div class="container mt-5">
+            <div class="row row-cols-1 row-cols-md-2 g-4">
+                <div class="col">
+                    <div class="card mb-3" style="max-width: 540px;">
+                        <div class="row g-0">
+                          <div class="col-md-4">
+                            <img src="https://simplon.co/uploads/Site%20national/Home-site-national/Logo-Apple-fondation-Program.png" class="img-fluid rounded-start" alt="...">
+                          </div>
+                          <div class="col-md-8">
+                            <div class="card-body">
+                              <h5 class="card-title">Formation Apple Foundation Program</h5>
+                              <p class="card-text">Initiez-vous avec Simplon et Apple à la conception d'une application mobile. Pour ajouter une corde à votre arc de développeur-se, ou pour entamer un parcours dans le numérique, l'Apple Foundation Program est accessible aux débutants comme aux plus confirmés.</p>
+                              <div class="w-100">
+                                <button class="btn w-100"><a href="" class="text-decoration-none">Decouvez l’apple foundation program</a> </button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+                <div class="col">
+                    <div class="card mb-3" style="max-width: 540px;">
+                        <div class="row g-0">
+                          <div class="col-md-4">
+                            <img src="https://simplon.co/uploads/Site%20national/Home-site-national/Logo-Apple-fondation-Program.png" class="img-fluid rounded-start" alt="...">
+                          </div>
+                          <div class="col-md-8">
+                            <div class="card-body">
+                              <h5 class="card-title">Formation Apple Foundation Program</h5>
+                              <p class="card-text">Initiez-vous avec Simplon et Apple à la conception d'une application mobile. Pour ajouter une corde à votre arc de développeur-se, ou pour entamer un parcours dans le numérique, l'Apple Foundation Program est accessible aux débutants comme aux plus confirmés.</p>
+                              <div class="w-100">
+                                <button class="btn w-100"><a href="" class="text-decoration-none">Decouvez l’apple foundation program</a> </button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+                <div class="col">
+                    <div class="card mb-3" style="max-width: 540px;">
+                        <div class="row g-0">
+                          <div class="col-md-4">
+                            <img src="https://simplon.co/uploads/Site%20national/Home-site-national/Logo-Apple-fondation-Program.png" class="img-fluid rounded-start" alt="...">
+                          </div>
+                          <div class="col-md-8">
+                            <div class="card-body">
+                              <h5 class="card-title">Formation Apple Foundation Program</h5>
+                              <p class="card-text">Initiez-vous avec Simplon et Apple à la conception d'une application mobile. Pour ajouter une corde à votre arc de développeur-se, ou pour entamer un parcours dans le numérique, l'Apple Foundation Program est accessible aux débutants comme aux plus confirmés.</p>
+                              <div class="w-100">
+                                <button class="btn w-100"><a href="" class="text-decoration-none">Decouvez l’apple foundation program</a> </button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+                <div class="col">
+                    <div class="card mb-3" style="max-width: 540px;">
+                        <div class="row g-0">
+                          <div class="col-md-4">
+                            <img src="https://simplon.co/uploads/Site%20national/Home-site-national/Logo-Apple-fondation-Program.png" class="img-fluid rounded-start" alt="...">
+                          </div>
+                          <div class="col-md-8">
+                            <div class="card-body">
+                              <h5 class="card-title">Formation Apple Foundation Program</h5>
+                              <p class="card-text">Initiez-vous avec Simplon et Apple à la conception d'une application mobile. Pour ajouter une corde à votre arc de développeur-se, ou pour entamer un parcours dans le numérique, l'Apple Foundation Program est accessible aux débutants comme aux plus confirmés.</p>
+                              <div class="w-100">
+                                <button class="btn w-100"><a href="" class="text-decoration-none">Decouvez l’apple foundation program</a> </button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+               
+              </div>
+        </div>
+    </section>
+    <section id="temoignages" class="mt-5">
+        <h5 class="text-center">
+            Des formatons aux métiers du numerique pour tous
+        </h5>
+        <hr class="border-2 opacity-100">
+        <div class="container mt-4">
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                  <div class="card">
+                    <img src="https://img.freepik.com/photos-gratuite/blogueuse-occasionnelle-interviewant-homme-pour-son-vlog_23-2148538884.jpg?w=826&t=st=1697030859~exp=1697031459~hmac=8f45e379027bb0d0cb598a07d1219b6aa575a373c028940a80b0a0943d81117a" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title text-center">LISA</h5>
+                      <p class="card-text">Developpeuse IOS apres une reconversion avec Apple Found</p>
+                      <div class="d-flex justify-content-center">
+                          <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#video1">Voir la video de temoignage</button>
+                        <!-- Modal -->
+                        <div class="modal fade" id="video1" tabindex="-1" aria-labelledby="video1Label" aria-hidden="true">
+                            <div class="modal-dialog modal-lg">
+                                <div class="modal-content">
+                                    <iframe width="auto" height="400" src="https://www.youtube.com/embed/A_-HlFvXGQs" title="Lisa, Développeuse iOS après une reconversion avec l&#39;Apple Foundation Program" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="https://img.freepik.com/photos-gratuite/blogueur-enregistrant-video_53876-137554.jpg?size=626&ext=jpg&ga=GA1.2.212687153.1691348973&semt=sph" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">LISA</h5>
+                        <p class="card-text">Developpeuse IOS apres une reconversion avec Apple Found</p>
+                      <div class="d-flex justify-content-center">
+                        <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#video2">Voir la video de temoignage</button>
+                        <!-- Modal -->
+                        <div class="modal fade" id="video2" tabindex="-1" aria-labelledby="video2Label" aria-hidden="true">
+                            <div class="modal-dialog modal-lg">
+                                <div class="modal-content">
+                                    <iframe width="auto" height="400" src="https://www.youtube.com/embed/xTb_SveYNcg" title="Lauryn Ornella, devenue développeuse iOS après un parcours scolaire atypique" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>                                    </div>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="https://img.freepik.com/photos-gratuite/femmes-defocalises-faisant-interview-radio-microphone_23-2148808731.jpg?size=626&ext=jpg&ga=GA1.2.212687153.1691348973&semt=sph" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">LISA</h5>
+                        <p class="card-text">Developpeuse IOS apres une reconversion avec Apple Found</p>
+                      <div class="d-flex justify-content-center">
+                        <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">Voir la video de temoignage</button>
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-lg">
+                                <div class="modal-content">
+                                    <iframe width="auto" height="400" src="https://www.youtube.com/embed/8wjznNpQxZQ" title="Anthoni, Apprenant de l&#39;École Cyber Microsoft by Simplon 🚀 s&#39;orienter dans la cybersécurité" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>                                    </div>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+    </section>
+    <section id="actualites" class="mt-5">
+        <h5 class="text-center">
+            Nos actualités
+        </h5>
+        <hr class="border-2 opacity-100">
+        <div class="container mt-5">
+            <div class="row row-cols-1 row-cols-md-2 g-4">
+                <div class="col">
+                  <div class="card card1">
+                    <div class="card-body mt-5">
+                      <h6 class="card-title text-center">Découvrez nos formations en alternance chez Simplon.co</h6>
+                      <button class="btn"><a href="" class="text-decoration-none">Nos parcours en alternance</a> </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card card2">
+                    <div class="card-body mt-5">
+                        <h6 class="card-title text-center">Découvrez notre prochaine réunion d'information sur les métiers de la tech : boostez votre carrière dans le numérique !</h6>
+                        <button class="btn"><a href="" class="text-decoration-none">S’inscrire des maintenant</a> </button>
+                      </div>
+                  </div>
+                </div>    
+              </div>
+        </div>
+    </section>
+    <section id="label" class="mt-5">
+      <h5 class="text-center">
+        Simplon est une entreprise labellisée par :
+      </h5>
+      <hr class="border-2 opacity-100">
+      <div class="container mt-5">
+          <div class="row row-cols-3 row-cols-md-5 g-4">
+              <div class="col">
+                <div class="card">
+                  <img src="https://simplon.co/storage/69751/datadocke.jpeg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h6 class="card-title text-center">Datadock</h6>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="https://simplon.co/storage/69753/global-compact-logo.jpeg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h6 class="card-title text-center">Global compact</h6>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="https://simplon.co/storage/69751/datadocke.jpeg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h6 class="card-title text-center">ESUS</h6>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="https://simplon.co/storage/70344/Ecovadis-Silver-2022-.jpeg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h6 class="card-title text-center">Qualiopi</h6>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="https://simplon.co/storage/69755/Logo-Qualiopi.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h6 class="card-title text-center">Ecovadis Silver 2022</h6>
+                  </div>
+                </div>
+              </div>
+              
+             
+            </div>
+
+            <div class="row text-center mt-5">
+              <p> <span class="simplon-color fw-bold">La certification Qualiopi</span> 
+                 : La certification qualité a été octroyée pour les catégories d'actions suivantes : actions de formation, actions de validation des acquis de l'expérience, et actions de formation par apprentissage.
+              </p>
+            </div>
+      </div>
+  </section>
+
+</main>
     <footer>
+      <div class="footercontainer bg-black">
+        <div class="row">
+          <div class="col-md-4 col-lg-3">
+            <div class="logo">
+              <img
+                src="../menu/menu_image/logofootersimplon.png"
+                alt=""
+                class="img-fluid"
+              />
+            </div>
+            <div class="logosocial d-flex py-3">
+              <div class="social">
+                <a href=""><i class="fa-brands fa-twitter text-light"></i></a>
+              </div>
+              <div class="social">
+                <a href="#"
+                  ><i class="fa-brands fa-linkedin-in text-light"></i
+                ></a>
+              </div>
 
+              <div class="social">
+                <a href="#"
+                  ><i class="fa-brands fa-instagram text-light"></i
+                ></a>
+              </div>
+
+              <div class="social">
+                <a href="#"><i class="fa-brands fa-facebook text-light"></i></a>
+              </div>
+
+              <div class="social">
+                <a href="#"> <i class="fa-brands fa-youtube text-light"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-lg-3 text-white menufooter">
+            <h4 class="mx-4">Integration</h4>
+            <ul>
+              <li>
+                <a href="../devenir-formateur/devenir-formateur.html" class="text-white text-decoration-none"
+                  ><i
+                    class="fa-solid fa-chevron-right text-white"
+                    style="font-size: 12px"
+                  ></i>
+                  Devenir Formateur</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-white text-decoration-none"
+                  ><i
+                    class="fa-solid fa-chevron-right text-white"
+                    style="font-size: 12px"
+                  ></i>
+                  Rejoigner Nos Equipes</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-white text-decoration-none"
+                  ><i
+                    class="fa-solid fa-chevron-right text-white"
+                    style="font-size: 12px"
+                  ></i>
+                  Simplon Foundation</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-4 col-lg-3 text-white">
+            <h4 class="mx-4">Contact</h4>
+            <ul>
+              <li>
+                <a href="#" class="text-white text-decoration-none"
+                  ><i
+                    class="fa-solid fa-chevron-right text-white"
+                    style="font-size: 12px"
+                  ></i>
+                  Blog</a
+                >
+              </li>
+              <li>
+                <a href="../presse/presse.html" class="text-white text-decoration-none"
+                  ><i
+                    class="fa-solid fa-chevron-right text-white"
+                    style="font-size: 12px"
+                  ></i>
+                  Presse</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-white text-decoration-none"
+                  ><i
+                    class="fa-solid fa-chevron-right text-white"
+                    style="font-size: 12px"
+                  ></i>
+                  Contact</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-white text-decoration-none"
+                  ><i
+                    class="fa-solid fa-chevron-right text-white"
+                    style="font-size: 12px"
+                  ></i>
+                  Accessibilité</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-12 col-lg-3 text-white" id="email">
+            <h4>Rester informer</h4>
+            <!-- <div class="container"> -->
+            <form action="/action">
+              <div class="col-md-10 mb-2">
+                <label for="mail" class="form-label"
+                  >S'inscrire a la newsletter</label
+                >
+                <input
+                  class="form-control form-control-sm"
+                  type="text"
+                  id="mail"
+                  placeholder="Email"
+                />
+              </div>
+              <div class="col-md-5">
+                <button class="btn btn-danger form-control">S'inscrire</button>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="row justify-content-start droit">
+          <h5 class="text-white fw-lighter">
+            <i class="fa-regular fa-copyright text-white"></i> copyright
+            <i class="fa-solid fa-circle text-white" style="font-size: 6px"></i>
+            Tous droits réservés
+            <i class="fa-solid fa-circle text-white" style="font-size: 6px"></i>
+            <span class="fw-semibold text-decoration-underline"
+              >Mentions Légales</span
+            >
+          </h5>
+        </div>
+      </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     
