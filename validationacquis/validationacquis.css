@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+main .banniere{
+    background:linear-gradient(0deg, rgba(99, 91, 103, 0.9), rgba(15, 20, 25, 0.9)), url("https://img.freepik.com/photos-gratuite/collage-controle-qualite-standard_23-2149631012.jpg?size=626&ext=jpg&ga=GA1.1.410106095.1694595730&semt=ais");
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 32vh;
+    text-align: center;
+    color: white;
+    padding-top: 5%;
+}
+main .banniere .retour{
+    text-align: left ;
+    margin-left: 2%;
+    margin-bottom: 83% ;
+    margin-top: 2%;
+}
+main .banniere .retour a{
+    text-decoration: none;
+    color: white;
+    
+}
+main .validationtop{
+    width: 80%;
+    height: auto;
+    margin: 2% auto;
+    /* border: 1px solid red; */
+}
+main .validationtop img{
+    width: 100%;
+    margin-left: 10%;
+}
+main .validationbottom{
+    width: 80%;
+    height: auto;
+    margin: 2% auto;
+    /* border: 1px solid red; */
+}
+
+  details {
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    padding: 0.5em 0.5em 0;
+  }
+  
+  summary {
+    margin: -0.5em -0.5em 0;
+    padding: 0.5em;
+  }
+  
+  details[open] {
+    padding: 0.5em;
+  }
+  
+  details[open] summary {
+    border-bottom: 1px solid #aaa;
+    margin-bottom: 0.5em;
+  }
+  #lien{
+    color: #a4082f;
+  }
+  /* les medias queries */
+  @media (max-width: 767px){
+   main .banniere{
+    padding-top: 20%;
+   }
+   main .banniere .retour{
+    margin-top: 20%;
+   }
+   
+  }
+  /* Pour tablette */
+  @media (min-width: 768px) and (max-width: 1025px){
+    main .banniere{
+      height: 20vh;
+      padding-top: 8%;
+    }
+    main .banniere .retour{
+      margin-top: 5%;
+    }
+  }
+  @media (min-width:1030){
+    main .banniere{
+      height: 18vh;
+      padding-top: 2%;
+    } 
+   
+  }

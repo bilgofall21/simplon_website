@@ -1,0 +1,222 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+main .banniere{
+    background:linear-gradient(0deg, rgba(99, 91, 103, 0.9), rgba(15, 20, 25, 0.9)), url("https://img.freepik.com/photos-gratuite/jeune-homme-malade-ami-ayant-appel-video-medecin_23-2148944900.jpg?size=626&ext=jpg&ga=GA1.1.410106095.1694595730&semt=ais"), no-repeat;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 32vh;
+    text-align: center;
+    color: white;
+    padding-top: 2%;
+}
+main .banniere .retour{
+    text-align: left ;
+    margin-left: 2%;
+    margin-bottom: 83% ;
+}
+main .banniere .retour a{
+    text-decoration: none;
+    color: white;
+}
+main .topaction{
+    /* border: 1px solid red; */
+    width: 80%;
+    height: 53vh;
+    margin: 2% auto;
+    display: grid;
+    grid-template-columns: 6fr 3fr;
+    gap: 1%;
+}
+main .topaction .topactionleft h2  .textsouligner{
+    text-decoration: underline 2px solid #a4082f ;
+    text-underline-offset: 25%  ;
+}
+main .topaction .topactionright img{
+    width: 100%;
+    height: 100%;
+}
+main .middleaction1 {
+    width: 90%;
+    height: 160vh;
+    margin: 2% auto;
+    /* border:1px solid red */
+}
+main .middleaction1 h2{
+    text-align: center;
+}
+
+main .middleaction1 .conatinercard{
+    width: 100%;
+    height: 98%;
+    /* border: 1px solid green; */
+    display: grid;
+    grid-template-columns: repeat(3, 30%);
+    justify-content: center;
+    margin-top: 5%;
+}
+main .middleaction1 .conatinercard .carditem{
+    width: 95%;
+    height: 90%;
+    border-radius: 2%;
+    box-shadow: 1px 1px 5px #ccc;
+ 
+}
+main .middleaction1 .conatinercard .carditem img{
+    width: 90%;
+    height: 50%;
+    margin-left: 4.2%;
+    border-radius: 4%;
+    box-shadow: 3px 3px 5px #a4082f;
+    /* border: 1px solid red; */
+    position: relative;
+    top: -4%;
+    
+}
+main .middleaction1 .conatinercard .carditem h3, .cardtext {
+    padding-left: 5%;
+    font-size: 14px;
+}
+main .middleaction1 .conatinercard .carditem  button{
+    border: none;
+    color: white;
+    background-color: #a4082f;
+    font-weight: bold;
+    margin-left: 12%;
+    padding: 1% 2%;
+    place-items: center;
+}
+main .middleaction2{
+    width: 80%;
+    height: 60vh;
+    /* border: 1px solid red; */
+    margin: 15% auto;
+    display: grid;
+    grid-template-columns: 2fr 4fr;
+    gap: 1%;
+}
+main .middleaction2 .middleaction2left img{
+    width: 100%;
+    height: 100%;
+}
+main .middleaction2 .middleactionright {
+    width: 100%;
+    height: 100%;
+}
+main .middleaction2 .middleaction2right  .titresouligner{
+    text-decoration: underline 2px solid #a4082f;
+    text-underline-offset: 25%;
+}
+main .middleaction2 .middleaction2right button {
+   border: 2px solid #a4082f;
+   background-color: white;
+   font-weight: bold;
+    float: right;
+   padding: 1% 2%;
+    
+}
+main .bottomaction{
+    width: 80%;
+    height: 48vh;
+    /* border: 1px solid red; */
+    margin: 15% auto;
+    display: grid;
+    grid-template-columns: 4fr 2fr;
+    gap: 1%;
+}
+main .bottomaction .bottomactionright img{
+    width: 100%;
+    height: 100%;
+}
+main .bottomaction .bottomactionleft .titresouligner{
+    text-decoration: underline 2px solid #a4082f;
+    text-underline-offset: 25%;
+}
+main .bottomaction .bottomactionleft button {
+    border: 2px solid #a4082f;
+    background-color: white;
+    font-weight: bold;
+     float: left;
+    padding: 1% 2%;
+    margin-top: 10%;
+     
+ }
+ @media (max-width: 767px){
+     main .banniere{
+        height: 28vh;
+        padding-top: 5%;
+    }
+    main .topaction{
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 95%;
+    }
+    main .topaction img{
+        border-radius: 5%;
+    }
+    main .middleaction1 .conatinercard{
+        margin-top: 15%;
+        display: block;
+        height: 90vh;
+        margin-bottom: 700px;
+    }
+    main .middleaction1 .conatinercard .carditem{
+        height: 45vh;
+        margin-bottom: 25%;
+    }
+    main .middleaction2{
+        margin-top: 1650px;
+        display: block;
+    }
+    main .middleaction2 .middleaction2right button{
+        width: 100%; 
+    }
+    main .bottomaction{
+        margin-top: 500PX;
+        display: flex;
+        flex-direction: column-reverse;
+
+    }
+    main .bottomaction .bottomactionleft button{
+        width: 100%;
+
+    }
+ }
+ /* pour tablette */
+ @media (min-width: 768px) and (max-width: 1025px) {
+    main .banniere{
+        height: 23vh;
+        padding-top: 6%;
+    }
+    main .banniere .retour{
+        margin-top: 8%;
+    }
+    main .topaction{
+        display: block;
+        margin-bottom: 230px;
+    }
+    main .middleaction1 .conatinercard{
+        margin-top: 10%;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    main .middleaction2 {
+       display: block;
+    }
+    main .middleaction2 .middleaction2right button{
+     margin-right: 32%;
+     margin-bottom: 5%;
+    }
+    main .bottomaction{
+        height: 30vh;
+    }
+    main .bottomaction .bottomactionleft button{
+        margin-left: 23%;
+    }
+    
+  }
+  
