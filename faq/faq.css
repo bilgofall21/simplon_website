@@ -21,7 +21,7 @@
 .faq .petit_titre_text{
     background-color: rgba(0, 0, 0, 0.7);
     position: absolute;
-    top:19% ;
+    top:20.5% ;
     width: 100%;
     height: 300px;
     text-align: center;
@@ -47,11 +47,11 @@
 }
 /* fin banniere */
 
-.section1{
+.faq .section1{
     background-color: var(--gris);
     padding: 1px;
 }
-.section2__ {
+.faq .section2__ {
     display: grid;
     grid-template-columns: 30% 30% 30%;
     gap: 5%;
@@ -62,8 +62,97 @@
     border: 2px solid var(--rouge);
 }
 
-.section3{
+.faq .section3{
     display: grid;
     grid-template-columns: 50% 50%;
     gap: 2%;
+}
+/* media queries */
+
+@media only screen and (max-width: 745px ){
+    /* banniere */
+
+.faq .petit_titre_text{
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top:17% ;
+}
+.faq .petit_titre_text h3 {
+    font-size: 25px;
+    letter-spacing: 2px;
+    margin-bottom: 7%;
+    position: relative;
+    top: 145px;
+}
+
+.faq .petit_titre_text p {
+    font-size: 15px;
+    font-weight: bold;
+    position: relative;
+    top: 190px;
+    margin-left: -50%;
+}
+/* fin banniere */
+
+
+.faq .section2__ {
+    display: grid;
+    grid-template-columns: 95% ;
+    gap: 1%;    
+}
+
+.faq .section3{
+    display: grid;
+    grid-template-columns: 100%;
+    gap: 2%;
+}
+.faq .section4{
+    display: flex;
+    flex-direction: column;
+}
+
+}
+
+@media only screen and (min-width: 746px ) and (max-width: 900px ){
+       /* banniere */
+
+.faq .petit_titre_text{
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top:14% ;
+}
+.faq .petit_titre_text h3 {
+    font-size: 30px;
+    letter-spacing: 2px;
+    margin-bottom: 7%;
+    position: relative;
+    top: 155px;
+}
+
+.faq .petit_titre_text p {
+    font-size: 15px;
+    font-weight: bold;
+    position: relative;
+    top: 160px;
+    margin-left: -70%;
+}
+/* fin banniere */
+
+
+.faq .section2__ {
+    display: grid;
+    grid-template-columns: 95% ;
+    gap: 1%;    
+}
+
+.faq .section3{
+    display: grid;
+    grid-template-columns: 100%;
+    gap: 2%;
+}
+.faq .section4{
+    display: flex;
+    flex-direction: column;
+}
+
 }
