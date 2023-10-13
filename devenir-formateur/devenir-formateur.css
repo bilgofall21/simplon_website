@@ -16,3 +16,6 @@
     font-size: 12px;
 
 }
+.simplon_color{
+    color: var(--simplon_color);
+}
