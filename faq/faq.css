@@ -8,12 +8,12 @@
     object-position: bottom-right;
 } */
 .banniere_bg{
-    width: 100%;
+    /* width: 100%;
     height: 300px;
-    background-image: url(images_faq/faq1.jpg);
+    background-image: url(images_faq/faq1.jpg); */
     /* background:linear-gradient(0deg, rgba(0,0,0,0.5)), url("images_faq/faq1.jpg"); */
-    background-size: cover;
-    background-position: center;
+    /* background-size: cover;
+    background-position: center; */
 }
 
 /* banniere */
@@ -21,7 +21,7 @@
 .faq .petit_titre_text{
     background-color: rgba(0, 0, 0, 0.7);
     position: absolute;
-    top:20.5% ;
+    top:30% ;
     width: 100%;
     height: 300px;
     text-align: center;

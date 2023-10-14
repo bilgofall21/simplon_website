@@ -141,9 +141,9 @@ height: 50px;
     /* ----------- Fin footer refonte page */
 
 
-    /* baniere page */
+    baniere page
     #banner{
-        background: linear-gradient(0deg, #0000008f, #0000008f), url("./menu_image/baniere.jpg");
+        background: linear-gradient(0deg, #0000008f, #0000008f), url("../images/bg.jpg");
         height: 30vh;
         background-size: cover;
         background-repeat: no-repeat;
