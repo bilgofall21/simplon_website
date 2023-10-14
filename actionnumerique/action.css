@@ -95,7 +95,7 @@ main .middleaction1 .conatinercard .carditem  button{
 main .middleaction2{
     width: 80%;
     height: 60vh;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin: 10% auto;
     display: grid;
     grid-template-columns: 2fr 4fr;
@@ -124,7 +124,7 @@ main .middleaction2 .middleaction2right button {
 main .bottomaction{
     width: 80%;
     height: 42vh;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin: 3% auto;
     display: grid;
     grid-template-columns: 4fr 2fr;

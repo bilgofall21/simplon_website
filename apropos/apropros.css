@@ -264,14 +264,31 @@ main .middlemain1 .right img{
     align-items: center;
   }
   /* media queries */
+  @media (max-width: 370px){
+    main .topmain {
+      height: 32vh;
+      margin-top: 15% !important;
+      padding-top: 5%;
+     }
+     main .middlemain1 .left a{
+      font-size: 8px !important;
+      /* border: 2px solid green; */
+     }
+     main .bottommain{
+      height: auto;
+     }
+     main .middlemain1 .right .images img{
+      display: none;
+     }
+  }
   @media (max-width: 767px){
     main .topmain {
-      height: 25vh;
-     
+      height: 32vh;
+      margin-top: 10%;
       padding-top: 5%;
      }
      main .middlemain1{
-      margin-top: 65%;
+      margin-top: 30%;
       display: flex;
       flex-direction: column-reverse;
      }
@@ -287,47 +304,61 @@ main .middlemain1 .right img{
       background-color: #A4082F;
       border-radius: 5%;
      }
+     main .middlemain1 .right .images img{
+      display: none;
+     }
      main .middlemain1 .right  img{
       width: 110%;
       border-radius: 5%;
       
-     }
+      } 
      main .middlemain1 .left a{
       font-size: 10px;
     
      }
-     main .bottommain h2{
-      margin-top: 5%;
+     main .middlemain2{
+      margin-bottom: 20%;
      }
+     main .bottommain{
+      margin-top: -15%;
+     }
+   
      main .bottommain .bottommainbis{
       display: block;
-      margin-top: 3% ;
+      margin-top: -2% ;
+      height: 900px;
       margin-bottom: 10%;
+      padding-bottom: 5%;
+    
 
      }
+     main .bottommain  h2{
+      padding-bottom: 3%;
+
+     }
+     main .bottommain .bottommainbis .bottommainleft{
+      margin-bottom: 5%;
+     }
      main .bottommain .bottommainbis .bottommainright{
-      margin-top: 2%;
+     margin-top: -8%;
      }
      
     
   }
   /* media pour les tablettes */
-  @media (min-width: 768px) and (max-width: 1025px) {
+  @media (min-width: 768px) and (max-width: 1060px) {
     main .topmain{
-      height: 18vh;
+      height: 32vh;
+      margin-top: 15%;
+      padding-top: 5%;
     }
     main .middlemain1{
       display: block;
     }
-    /* main .middlemain1 .right{
-      display: block;
-      border: 1px solid red;
-      margin-top: -45%;
-    } */
     main .middlemain1 .right img{
       width: 550px;
       height: auto;
-      border: 1px solid red;
+      /* border: 1px solid red; */
       position: relative;
       top: -50%;
       right: 8%;
@@ -342,9 +373,26 @@ main .middlemain1 .right img{
       height: 60vh;
       margin-bottom: 5%;
     }
-    main .bottommain a{
+    main .bottommain .bottommainright a{
       font-size: 12px;
-      margin-top: 2%;
+      margin-top: 15%;
     }
   }
-  
+  @media (min-width: 1062px) and (max-width: 1750px){
+    body p{
+      font-size: 20px !important;
+    }
+    main .topmain{
+      height: 50vh;
+      margin-top: 5%;
+      padding-top: 5%;
+     
+    }
+    main .topmain h1{
+      font-size: 30px;
+    }
+    main .middlemain1 .left a{
+      margin-top: 25% !important;
+      font-size: 20px;
+    }
+  }
