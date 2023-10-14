@@ -3,21 +3,19 @@
     margin: 0;
 }
 main .banniere{
-    background:linear-gradient(0deg, rgba(99, 91, 103, 0.9), rgba(15, 20, 25, 0.9)), url("https://img.freepik.com/photos-gratuite/collage-controle-qualite-standard_23-2149631012.jpg?size=626&ext=jpg&ga=GA1.1.410106095.1694595730&semt=ais");
+    background-image: url("https://img.freepik.com/free-photo/young-african-accountant-wearing-formal-wear-holding-documents-dealing-with-paperwork_273609-13581.jpg?w=900&t=st=1697324536~exp=1697325136~hmac=edf7b1080454eaef0a14db3b049da87881f2fa609c814b2e1a3971c08f3cc351");
     width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
-    height: 32vh;
+    height: 50vh;
     text-align: center;
     color: white;
-    padding-top: 5%;
+    padding-top: 8%;
 }
 main .banniere .retour{
     text-align: left ;
     margin-left: 2%;
-    margin-bottom: 83% ;
-    margin-top: 2%;
+    margin-top: 8%;
 }
 main .banniere .retour a{
     text-decoration: none;
@@ -66,7 +64,9 @@ main .validationbottom{
   /* les medias queries */
   @media (max-width: 767px){
    main .banniere{
-    padding-top: 20%;
+    padding-top: 15%;
+    margin-top: 15%;
+    height: 32vh;
    }
    main .banniere .retour{
     margin-top: 20%;
@@ -76,11 +76,11 @@ main .validationbottom{
   /* Pour tablette */
   @media (min-width: 768px) and (max-width: 1025px){
     main .banniere{
-      height: 20vh;
-      padding-top: 8%;
+      height: 32vh;
+      padding-top: 15%;
     }
     main .banniere .retour{
-      margin-top: 5%;
+      margin-top: 10%;
     }
   }
   @media (min-width:1030){
