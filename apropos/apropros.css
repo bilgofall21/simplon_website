@@ -15,11 +15,11 @@ main .topmain {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+  
     
 }
 main .topmain h1{
     padding-top: 5%;
-    font-size: 25px;
     /* border: 1px solid red; */
 }
 main .topmain p{
@@ -378,7 +378,7 @@ main .middlemain1 .right img{
       margin-top: 15%;
     }
   }
-  @media (min-width: 1062px) and (max-width: 1750px){
+  @media (min-width: 1062px) and (max-width: 1200px){
     body p{
       font-size: 20px !important;
     }
