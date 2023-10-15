@@ -5,6 +5,9 @@ body{
     margin: 0;
     padding: 0;
 }
+main{
+padding-top: 150px;
+}
 /* debut design header */
 #logo{
     /* border: 1px solid red; */
@@ -62,7 +65,8 @@ header .Tete .teteContainer{
 } */
 
 /* impact */
-header .card1s{
+main .card1s{
+ 
    display: grid;
    grid-template-columns: 20% 20% 20% 20%;
    justify-content: center;
@@ -70,17 +74,17 @@ header .card1s{
    position: relative;
    top: 40%;
 }
-header .card1s .card1 {
+ main .card1s .card1 {
     background-color: var(--simplon_color);
     padding: 30px 20px;
     margin: 10px;
 
 }
-header .cards .card1 .body-card1{
+main .cards .card1 .body-card1{
     color: var(--blanc);
 
 }
-header .cards .card1 .body-card1 p{
+ main .cards .card1 .body-card1 p{
     margin: 0;
 
 }

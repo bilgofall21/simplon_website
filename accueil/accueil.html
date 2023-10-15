@@ -16,210 +16,140 @@
   <!-- fixer le header  -->
   <!-- gerer responsivite -->
   <header class="fixed-top">
-    <section class="Tete">
-      <div class="container-fluid">
-        <div class="teteContainer">
-          <div class="traduction">
-            <button>EN</button>
-            <button>FR</button>
-          </div>
-          <div class="icones">
-            <span class="sociaux"
-              ><a href="#"
-                ><i
-                  class="fa-brands fa-twitter"
-                  style="color: #ffffff"
-                ></i></a
-            ></span>
-            <span class="sociaux"
-              ><a href="#"
-                ><i
-                  class="fa-brands fa-facebook-f"
-                  style="color: #ffffff"
-                ></i></a
-            ></span>
-            <span class="sociaux"
-              ><a href="#"
-                ><i
-                  class="fa-brands fa-linkedin-in"
-                  style="color: #ffffff"
-                ></i></a
-            ></span>
-            <span class="sociaux"
-              ><a href="#"
-                ><i
-                  class="fa-brands fa-instagram"
-                  style="color: #ffffff"
-                ></i></a
-            ></span>
-            <span class="sociaux"
-              ><a href="#"
-                ><i
-                  class="fa-brands fa-youtube"
-                  style="color: #ffffff"
-                ></i></a
-            ></span>
-          </div>
+    <section class="Tete ">
+        <div class="container-fluid">
+            <div class="teteContainer">
+                <div class="traduction">
+                    <button>EN</button>
+                    <button>FR</button>
+                </div>
+                <div class="icones">
+                    <span class="sociaux"><a href="#"><i class="fa-brands fa-twitter" style="color: #ffffff;"></i></a></span>
+                    <span class="sociaux"><a href="#"><i class="fa-brands fa-facebook-f" style="color: #ffffff;"></i></a></span>
+                    <span class="sociaux"><a href="#"><i class="fa-brands fa-linkedin-in" style="color: #ffffff;"></i></a></span>
+                    <span class="sociaux"><a href="#"><i class="fa-brands fa-instagram" style="color: #ffffff;"></i></a></span>
+                    <span class="sociaux"><a href="#"><i class="fa-brands fa-youtube" style="color: #ffffff;"></i></a></span>
+                </div>
+            </div>
         </div>
-      </div>
     </section>
-    <nav class="navbar navbar-expand-lg bg-light">
-      <div class="container-fluid d-flex justify-content-between">
-        <div>
-          <a class="navbar-brand" href="../accueil/accueil.html"
-            ><img src="../menu/menu_image/logosimplon.png" id="logo" alt=""
-          /></a>
+    <nav class="nav-fixed navbar navbar-expand-lg bg-white">
+        <div class="container-fluid d-flex justify-content-between bg-white">
+            <div>
+                <a class="navbar-brand" href="accueil.html"><img src="../images/logosimplon.png" id="logo" alt=""></a>
+            </div>
+            <div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+  
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="accueil.html">Accueil</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          A propos
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="../apropos/apropros.html">Qui sommes nous?</a></li>
+                          <li><a class="dropdown-item" href="../pedagogie_simplon/pedagogie_simplon.html">Notre pedagogie</a></li>
+                          <li><a class="dropdown-item" href="../reseau_de_fabrique/reseau_de_fabrique.html">Notre Réeau de fabrique</a></li>
+                          <li><a class="dropdown-item" href="../actionnumerique/action.html">Nos actions pour un numérique inclusif </a></li>
+                          <li><a class="dropdown-item" href="../faq/faq.html">Anti-Faq </a></li>
+                          <!-- <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li> -->
+                        </ul>
+                      </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Nos formations
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="../formations/formation.html">Formations</a></li>
+                          <li><a class="dropdown-item" href="../page_blockchain/block_chain.html">Se former à la blockchain</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Candidats
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="../page-candidater/candidater.html">Candidater</a></li>
+                          <li><a class="dropdown-item" href="../validationacquis/validationacquis.html">Valider ses acquis par le VAE</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Sociales
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="../action_pour_femmes/action_femme.html">Nos actions pour les femmes</a></li>
+                          <li><a class="dropdown-item" href="../handicap_accessibilite_numerique/handicap.html">Personne en situation de handicap</a></li>
+                          <li><a class="dropdown-item" href="../action_pour_refugiés/action_pour_les_refugies.html">Actions pour les réfugiés</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Entreprises
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="../simplon_corp//simplon_corp.html">Former ses salariés</a></li>
+                          <li><a class="dropdown-item" href="../collectedelata/collecte.html">Collecte de la TA 2023</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                      <a href="../page_contact/contact.html" class="nav-link" aria-disabled="true">Contact</a>
+                    </li>
+                  </ul>
+                </div>
+            </div>
         </div>
-        <div>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#"
-                  >Accueil</a
-                >
-              </li>
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  A propos
-                </a>
-                <ul class="dropdown-menu">
-                  <li>
-                    <a class="dropdown-item" href="../apropos/apropros.html">Qui sommes nous?</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="../pedagogie_simplon/pedagogie_simplon.html">Notre pedagogie</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="../reseau_fabrique_simplon/reseau_fabrique_simplon.html"
-                      >Notre Réeau de fabrique</a
-                    >
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="../actionnumerique/action.html"
-                      >Nos actions pour un numérique inclusif
-                    </a>
-                  </li>
-                  <li><a class="dropdown-item" href="../faq/faq.html">Anti-Faq </a></li>
-                  <!-- <li><hr class="dropdown-divider"></li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li> -->
-                </ul>
-              </li>
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Nos formations
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="../formations/formation.html">Formations</a></li>
-                  <li>
-                    <a class="dropdown-item" href="../page_blockchain/block_chain.html"
-                      >Se former à la blockchain</a
-                    >
-                  </li>
-                </ul>
-              </li>
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Candidats
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="../page-candidater/candidater.html">Candidater</a></li>
-                  <li>
-                    <a class="dropdown-item" href="../validationacquis/validationacquis.html"
-                      >Valider ses acquis par le VAE</a
-                    >
-                  </li>
-                </ul>
-              </li>
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Sociales
-                </a>
-                <ul class="dropdown-menu">
-                  <li>
-                    <a class="dropdown-item" href="../action_pour_femmes/action_femme.html"
-                      >Nos actions pour les femmes</a
-                    >
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="../handicap_accessibilite_numerique/handicap.html"
-                      >Personne en situation de handicap</a
-                    >
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="../action_pour_refugiés/action_pour_les_refugies.html"
-                      >Actions pour les réfugiés</a
-                    >
-                  </li>
-                </ul>
-              </li>
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Entreprises
-                </a>
-                <ul class="dropdown-menu">
-                  <li>
-                    <a class="dropdown-item" href="../simplon_corp/simplon_corp.html">Former ses salariés</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="../collectedelata/collecte.html"
-                      >Collecte de la TA 2023</a
-                    >
-                  </li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a href="../page_contact/contact.html" class="nav-link" aria-disabled="true">Contact</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </nav>
-  </header>
-
+      </nav>
+    </header>
     <main>
+      <section id="banner">
+          <div class="pt-5">
+              <h3 class="text-center">
+                  Simplon Formation Numerique
+              </h3>
+              <p class="w-75">
+                  Simplon, l’école qui forme aux métiers du numérique dans toute la France et à l’international.​​​​​​​Rejoignez un réseau 
+                  de plus de 25 000 apprenants et apprenantes. ​​​​​​​Vous souhaitez vous aussi intégrer un parcours de formation Simplon ou être conseillé-e dans votre parcours ?
+              </p>
+          </div>
+          <div class="d-flex justify-content-center mt-5">
+              <button type="button" id="btn-contact" class="btn text-white mx-2 border">Contactez-nous</button>
+              <button type="button" id="btn-decouvrir" class="btn btn-light  mx-2">Decouvrez notre offre de formation</button>
+          </div>
+          <div class="card1s">
+              <div class="card1">
+                  <div class="body-card1 text-center">
+                      <p class="fw-bold fs-4">25000</p>
+                      <p>Simploniens et Simplonniennes</p>
+                  </div>
+              </div>
+              <div class="card1">
+                  <div class="body-card1 text-center">
+                      <p class="fw-bold fs-4">103</p>
+                      <p>Fabriques dans le monde</p>
+                  </div>
+              </div>
+              <div class="card1">
+                  <div class="body-card1 text-center">
+                      <p class="fw-bold fs-4">1577</p>
+                      <p>Salariés</p>
+                  </div>
+              </div>
+              <div class="card1">
+                  <div class="body-card1 text-center">
+                      <p class="fw-bold fs-4">37,6%</p>
+                      <p>D'apprenantes formées au sein de nos Fabriques</p>
+                  </div>
+              </div>
+          </div>
+      </section>
         <section id="formations">
             <h5 class="text-center">
                 Des formatons aux métiers du numerique pour tous
@@ -576,7 +506,7 @@
          <div class="row ">
            <div class="col-md-4 col-lg-3" >
              <div class="logo ">
-               <img src="../images/logofootersimplon.png" alt="" class="img-fluid">
+              <a href="../accueil/accueil.html"> <img src="../images/logofootersimplon.png" alt="" class="img-fluid"></a>
              </div>
              <div class="logosocial d-flex py-3">
                <div class="social">
@@ -604,7 +534,7 @@
            <div class="col-md-4 col-lg-3 text-white menufooter">
              <h4 class="mx-4">Integration</h4>
              <ul>
-               <li><a href="#" class="text-white text-decoration-none"><i class="fa-solid fa-chevron-right text-white" style="font-size: 12px;"></i> Devenir Formateur</a></li>
+               <li><a href="../devenir-formateur/devenir-formateur.html" class="text-white text-decoration-none"><i class="fa-solid fa-chevron-right text-white" style="font-size: 12px;"></i> Devenir Formateur</a></li>
                <li> <a href="#" class="text-white text-decoration-none"><i class="fa-solid fa-chevron-right text-white" style="font-size: 12px;"></i> Rejoigner Nos Equipes</a></li>
                <li> <a href="#" class="text-white text-decoration-none"><i class="fa-solid fa-chevron-right text-white" style="font-size: 12px;"></i> Simplon Foundation</a></li>
              </ul>
@@ -612,9 +542,9 @@
            <div class="col-md-4 col-lg-3 text-white">
              <h4 class="mx-4">Contact</h4>
              <ul>
-               <li> <a href="#" class="text-white text-decoration-none"><i class="fa-solid fa-chevron-right text-white" style="font-size: 12px;"></i> Blog</a></li>
-               <li> <a href="#" class="text-white text-decoration-none"><i class="fa-solid fa-chevron-right text-white" style="font-size: 12px;"></i> Presse</a></li>
-               <li> <a href="#" class="text-white text-decoration-none"><i class="fa-solid fa-chevron-right text-white" style="font-size: 12px;"></i> Contact</a></li>
+               <li> <a href="../blog/blog.html" class="text-white text-decoration-none"><i class="fa-solid fa-chevron-right text-white" style="font-size: 12px;"></i> Blog</a></li>
+               <li> <a href="../presse/presse.html" class="text-white text-decoration-none"><i class="fa-solid fa-chevron-right text-white" style="font-size: 12px;"></i> Presse</a></li>
+               <li> <a href="../contacte/contacte.html" class="text-white text-decoration-none"><i class="fa-solid fa-chevron-right text-white" style="font-size: 12px;"></i> Contact</a></li>
                <li> <a href="#" class="text-white text-decoration-none"><i class="fa-solid fa-chevron-right text-white" style="font-size: 12px;"></i> Accessibilité</a></li>
              </ul>
            </div>
