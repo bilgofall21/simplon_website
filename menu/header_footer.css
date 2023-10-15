@@ -27,7 +27,12 @@ main{
     color:black !important;
 }
 header .Tete{
-    background-color: #a4082f;
+    background-color: #CE0033;
+    height: 6.5vh;
+    display: flex;
+    align-items: center;
+
+    
 
 }
 header .Tete .teteContainer{
@@ -52,7 +57,7 @@ header .headTete{
 .icones .sociaux{
     margin-left: 15px;
     padding: 2px 4px;
-    width: 15%;
+    width: 14%;
     border-radius: 50%;
     border: 1px solid white;
     display: flex;
@@ -60,24 +65,7 @@ header .headTete{
     align-items: center;
 }
 
-#banner{
-    background: linear-gradient(0deg, #0000008f, #0000008f), url("./images/bg.jpg");
-    height: 60vh;
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin: 0;
-    width: 100%;
-    background-position: center;
-    color: white;
 
-}
-#banner p{
-    margin: 0 auto;
-    text-align: center;
-}
-/* ----------- fin menu refonte page */
-
-/* ----------- debut footer refonte page */
 .social {
     border: 1px solid white;
     height: 30px;
@@ -141,45 +129,4 @@ height: 50px;
     /* ----------- Fin footer refonte page */
 
 
-    /* baniere page */
-    #banner{
-        background: linear-gradient(0deg, #0000008f, #0000008f), url("./image_menu/baniere.jpg");
-        height: 30vh;
-        background-size: cover;
-        background-repeat: no-repeat;
-        margin: 0;
-        width: 100%;
-        background-position: center;
-        color: white;
-    
-    }
-    #banner p{
-        margin: 0 auto;
-        text-align: center;
-    }
-
-    /* fin baniere page */
-    @media (max-width:448px){
-        .icones{
-            display: none;
-        }
-        header .Tete .teteContainer{
-            display: flex;
-            padding: 4px 20px;
-            justify-content: center;
-            /* align-items: center; */
-        }
-    }
-
-
-
-
-
-
-
-
-
-
-    
-    
-} 
+  
