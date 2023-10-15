@@ -65,8 +65,8 @@ header .headTete{
     align-items: center;
 }
 
-#banner{
-    background: linear-gradient(0deg, #0000008f, #0000008f), url("../menu/menu_image/baniere.jpg");
+/* #banner{
+    background: linear-gradient(0deg, #0000008f, #0000008f), url("./images/bg.jpg");
     height: 60vh;
     background-size: cover;
     background-repeat: no-repeat;
@@ -79,7 +79,7 @@ header .headTete{
 #banner p{
     margin: 0 auto;
     text-align: center;
-}
+} */
 /* ----------- fin menu refonte page */
 
 /* ----------- debut footer refonte page */
@@ -146,7 +146,23 @@ height: 50px;
     /* ----------- Fin footer refonte page */
 
 
-  
+    /* baniere page */
+    #banner{
+        background: linear-gradient(0deg, #0000008f, #0000008f), url("../reseau_fabrique_simplon/image_fabrique_simplon/Programmation-alternance\ \(3\).jpg");
+        height: 50vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin: 0;
+        width: 100%;
+        background-position: center;
+        color: white;
+    
+    }
+    #banner p{
+        margin: 0 auto;
+        text-align: center;
+    }
+
     /* fin baniere page */
     @media (max-width:448px){
         .icones{
