@@ -1,15 +1,14 @@
 
 main .banniere{
-    background:linear-gradient(0deg, rgba(99, 91, 103, 0.9), rgba(15, 20, 25, 0.9)), url("https://img.freepik.com/photos-premium/journaux-lunettes-ordinateur-portable-nouvelles-ligne_488220-9586.jpg?size=626&ext=jpg&ga=GA1.1.410106095.1694595730&semt=ais");
+    background-image:url("https://img.freepik.com/free-photo/closeup-human-hands-using-cellphone_1262-14167.jpg?size=626&ext=jpg&ga=GA1.1.410106095.1694595730&semt=ais");
     width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 32vh;
+    height: 50vh;
     text-align: center;
     color: white;
-    padding-top: 2%;
-    margin-bottom: 3%;
+    padding-top: 5%;
 }
 main .banniere .retour{
     /* border: 1px solid red; */
@@ -19,6 +18,7 @@ main .banniere .retour{
 main .banniere .retour a{
     text-decoration: none;
     color: white;
+    margin-top: 10%;
 }
 main .blocpressbis{
     /* border: 1px solid red; */
@@ -52,6 +52,32 @@ main .blocpressbis .otherpresse{
     gap: 2%;
 
 }
-/* main .blocpressbis .otherpresse .otherpressright .card{
- margin-bottom: 2%;    
-} */
+@media (max-width: 768px){
+    main .banniere{
+        padding-top: 20%;
+        margin-top: 5%;
+    }
+    main .banniere .retour{
+        margin-top: 15%;
+    }
+   
+    main .blocpress .blocpressbis .otherpresse{
+        display: grid;
+        grid-template-columns: 1fr;
+        height: auto;
+        
+        
+    }
+    .cardtop{
+        display: none;
+    }
+    
+}
+@media (min-width: 769px) and (max-width: 1200px) {
+    main .banniere{
+        padding-top: 15%;
+    }
+    main .banniere .retour{
+        margin-top: 15%;
+    }
+}

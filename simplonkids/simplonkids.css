@@ -9,21 +9,20 @@
     --redsimplon : #CE0033;
 }
 main .banniere{
-    background:linear-gradient(0deg, rgba(99, 91, 103, 0.9), rgba(15, 20, 25, 0.9)), url("https://img.freepik.com/photos-premium/deux-eleves-aide-tablet-pc-leur-bureau_107420-32527.jpg?size=626&ext=jpg&ga=GA1.2.410106095.1694595730&semt=ais");
+    background-image: url("https://img.freepik.com/photos-premium/deux-eleves-aide-tablet-pc-leur-bureau_107420-32527.jpg?size=626&ext=jpg&ga=GA1.2.410106095.1694595730&semt=ais");
     width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 32vh;
+    height: 50vh;
     text-align: center;
     color: white;
-    padding-top: 2%;
-    margin-bottom: 3%;
+    padding-top: 5%;
 }
 main .banniere .retour{
     /* border: 1px solid red; */
     padding-right:75% ;
-    margin-top: 2%;
+    margin-top: 6%;
 }
 main .banniere .retour a{
     text-decoration: none;
@@ -90,14 +89,22 @@ main .banniere .retour a{
     height: 80px;
 }
 
+
 /* Media query */
 @media (max-width:810px){
     main  .banniere{
-        padding-top: 18%;
+        padding-top: 25%;
+    }
+    .lefttop{
+        width: 100px;
+        /* border: 1px solid red; */
+    }
+    .lefttop img{
+        width: 100%;
     }
     .actionformation{
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr ;
         padding: 0 5px;
     }
     .actionformation .card2, .card4{
@@ -121,10 +128,17 @@ main .banniere .retour a{
         width: 100%;
         
     }
+    .card1, .card3{
+        height: 60vh;
+    }
+    .actionsponsor .partenair img, .row img{
+        width: 80%;
+       margin: 5% 8%;
+    }
 }
 @media (max-width:448px){
     main  .banniere{
-        padding-top: 18%;
+        padding-top: 45%;
     }
     main  .banniere p{
         display: none;
@@ -183,5 +197,10 @@ main .banniere .retour a{
         width: 70%;
         height: 40px;
         font-size: 10px;
+    }
+}
+@media (min-width: 770px) and (max-width:1300px){
+    main .banniere{
+        margin-top: 5%;
     }
 }
