@@ -11,25 +11,23 @@
 /* main */
 
 /* banniere */
-.simplon_paratique .img_banniere{
+.simplon_paratique #haut_de_page_pratique .img_banniere{
     width: 100%;
-    height: 250px;
+    height: 300px;
     /* object-fit: cover; */
 }
 .simplon_paratique .petit_titre_text{
     background-color: rgba(0, 0, 0, 0.5);
     position: absolute;
-    top:21% ;
+    top:23% ;
     width: 100%;
     height: 250px;
-
-}
-.simplon_paratique .petit_titre_text{
     text-align: center;
     color: white;
     font-weight: bold;
 
 }
+
 .simplon_paratique .petit_titre_text h3 {
     font-size: 30px;
     text-transform: uppercase;
@@ -108,6 +106,14 @@
     line-height: 20px;
     text-align: center;
     margin-top: 10px;
+}
+
+.simplon_paratique .fa-arrow-up{
+    border: 2px solid var(--rouge);
+    padding: 1%;
+    position: relative;
+    left: 90%;
+    margin-bottom:30px;
 }
 
 /* media queries main */
