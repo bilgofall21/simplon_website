@@ -1,0 +1,122 @@
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+
+}
+:root {
+    --redsimplon : #CE0033;
+}
+
+
+
+/* baniere page */
+#banner{
+    background: linear-gradient(0deg, #0000008f, #0000008f), url("https://img.freepik.com/photos-premium/concept-securite-donnees-acceder-au-texte-bouton-du-clavier_2227-1332.jpg?size=626&ext=jpg&ga=GA1.1.2145246215.1689776414&semt=ais");
+    height: 70vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    width: 100%;
+    background-position: center;
+    color: white;
+
+}
+#banner p{
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* stylisation paragraphe */
+.accesstop{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.accesstop .accessleft p, .accesstop .accessright p{
+    font-size: 15px;
+
+}
+.accesstop .accessleft{
+    padding: 10px 5px;
+    border: 2px solid var(--redsimplon);
+    box-shadow: 4px 4px 8px #ce0034;
+}
+.accesstop .accessright{
+    /* border: 2px solid var(--redsimplon); */
+    height: 35vh;
+    box-shadow: 4px 4px 8px #ce0034;
+    position: relative;
+    top: 120px;
+    right:12px ;
+    background-color: white;
+    padding: 10px 5px;
+    
+}
+
+/* Media query */
+@media (max-width:1023px){
+    .accesstop .accessright{
+        height: 30vh
+    }
+}
+@media (max-width:810px){
+    .accesstop{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .accesstop .accessright{
+        margin-bottom: 180px;
+    }
+    
+}
+@media (max-width:448px){
+    .accesstop .accessright{
+        height: 35vh
+    }
+}
+
+@media (max-width:385px){
+    .accesstop .accessright{
+        height: 45vh
+    }
+}
+@media (max-width:330px){
+    .accesstop .accessright{
+        height: 50vh
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* fin baniere page */
+@media (max-width:448px){
+    .icones{
+        display: none;
+    }
+    header .Tete .teteContainer{
+        display: flex;
+        padding: 4px 20px;
+        justify-content: center;
+        /* align-items: center; */
+    }
+}

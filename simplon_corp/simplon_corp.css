@@ -149,6 +149,7 @@
     flex-direction: column;
     /* margin-top: 30px; */
     margin-left: 0;
+    height: auto;
   }
 
   .cardformation{
@@ -165,11 +166,14 @@
   }
 
   .pourcent{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    /* display: grid; */
+    grid-template-columns: 1fr;
   }
  
 }
+
+
+
 
 
 

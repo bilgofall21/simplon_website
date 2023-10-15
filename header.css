@@ -16,6 +16,11 @@ body{
 }
 header .Tete{
     background-color: #CE0033;
+    height: 6.5vh;
+    display: flex;
+    align-items: center;
+
+    
 
 }
 header .Tete .teteContainer{
@@ -40,7 +45,7 @@ header .headTete{
 .icones .sociaux{
     margin-left: 15px;
     padding: 2px 4px;
-    width: 15%;
+    width: 14%;
     border-radius: 50%;
     border: 1px solid white;
     display: flex;
@@ -60,8 +65,8 @@ header .headTete{
     background-color: red;
 } */
 #banner{
-    background: linear-gradient(0deg, #0000008f, #0000008f), url("image");
-    height: 45vh;
+    background: linear-gradient(0deg, #0000008f, #0000008f), url("https://img.freepik.com/photos-premium/etudiants-utilisant-ordinateur-portable-telephone-mobile-tablette-numerique_107420-85340.jpg?size=626&ext=jpg&ga=GA1.1.2145246215.1689776414&semt=ais");
+    height: 80vh;
     background-size: cover;
     background-repeat: no-repeat;
     margin: 0;
@@ -69,6 +74,15 @@ header .headTete{
     background-position: center;
     color: white;
 
+}
+#banner p{
+    margin: 0 auto;
+    text-align: center;
+}
+#btn-contact{
+    /* background-color: transparent;
+    color: white; */
+    
 }
 
 
