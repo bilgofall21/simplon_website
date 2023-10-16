@@ -6,6 +6,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    
 }
 
 /* main */
@@ -13,37 +14,40 @@
 /* banniere */
 .simplon_paratique .img_banniere{
     width: 100%;
-    height: 250px;
+    height: 50vh !important;
     /* object-fit: cover; */
 }
 .simplon_paratique .petit_titre_text{
     background-color: rgba(0, 0, 0, 0.5);
     position: absolute;
-    top:21% ;
+    top:20.5% !important;
     width: 100%;
-    height: 250px;
-
-}
-.simplon_paratique .petit_titre_text{
+    height: 50vh !important;
     text-align: center;
     color: white;
     font-weight: bold;
 
 }
+
+.simplon_paratique .petit_titre_text p a{
+    text-decoration: none;
+    color: white;
+}
+
 .simplon_paratique .petit_titre_text h3 {
     font-size: 30px;
     text-transform: uppercase;
     letter-spacing: 2px;
     margin-bottom: 7%;
     position: relative;
-    top: 105px;
+    top: 155px;
 }
 
 .simplon_paratique .petit_titre_text p {
     font-size: 17px;
     font-weight: bold;
     position: relative;
-    top: 65px;
+    top: 135px;
     margin-left: -77%;
 }
 /* fin banniere */
@@ -108,6 +112,14 @@
     line-height: 20px;
     text-align: center;
     margin-top: 10px;
+}
+
+.simplon_paratique .fa-arrow-up{
+    border: 2px solid var(--rouge);
+    padding: 1%;
+    position: relative;
+    left: 90%;
+    margin-bottom:30px;
 }
 
 /* media queries main */
@@ -201,12 +213,8 @@
     height: 250px;
 }
 .simplon_paratique .petit_titre_text{
-    background-color: rgba(0, 0, 0, 0.5);
     position: absolute;
     top:14% ;
-    width: 100%;
-    height: 250px;
-
 }
 .simplon_paratique .petit_titre_text{
     text-align: center;

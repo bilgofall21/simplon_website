@@ -19,7 +19,7 @@ main .all{
 
 .img_baniere{
     width: 100%;
-    height: 300px;
+    height: 50vh;
 }
 main .petit_titre_text h3 {
     text-align: center;
@@ -32,13 +32,17 @@ main .petit_titre_text h3 {
     position: relative;
     top: -200px;
 }
-main .petit_titre_text p {
+main .petit_titre_text p{
     color: white;
     font-size: 30px;
     font-weight: bold;
     position: relative;
     top: -230px;
     margin-left: 3%;
+}
+main .petit_titre_text p a{
+    text-decoration: none;
+    color: white;
 }
 /* .container{
     margin-bottom: 220px;
@@ -49,17 +53,15 @@ main .petit_titre_text p {
     height: 8px;
     background-color: var(--rouge);
 }
-.fa-chevron-down{
+/* .fa-chevron-down{
     position: relative;
     left: -35px;
-}
+} */
 
-.section3{
-       
-    /* width: 300%;  */
-    /* height: 100%;  */
-    /* overflow: hidden; */
-}
+.section3 #map { 
+    height: 800px;
+    width: 100%;
+   }
 
 .section3 .carte_localisation{
     margin: 20px;
@@ -78,8 +80,6 @@ main .petit_titre_text p {
 }
 .section3 .text_icone{
     margin-left: 23%;
-
-
 }
 .section3 button{
     border: 2px solid var(--rouge);
@@ -116,6 +116,25 @@ main .btn_decouvrir:hover{
     color: white;
 
 }
+
+.carousel{
+    background-color: rgb(160, 160, 160);
+
+    
+}
+
+.fa-arrow-up{
+    border: 2px solid var(--rouge);
+    padding: 1%;
+    position: relative;
+    left: 90%;
+}
+/* .fa-arrow-up:hover{
+    background-color: var(--rouge);
+    color: white;
+} */
+
+
 /* media queries */
 @media only screen and (max-width: 600px ){
     main .all{
