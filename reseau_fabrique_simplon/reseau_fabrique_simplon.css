@@ -1,0 +1,114 @@
+.card{
+    margin-top: -20px;
+}
+.card .card-body{
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+}
+.card-title{
+    text-align: center;
+    margin-top: -30px;
+}
+
+.container{
+    display: grid;
+   grid-template-columns: 1fr 1fr;
+   margin-bottom: 30px;
+   
+}
+.container .image{
+ 
+}
+.titl-text{
+    background-color: white;
+    box-shadow: 3px 5px 4px #CE0033;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+.simplonco{
+    background-color: #CE0033;
+    box-shadow: 3px 10px 4px black;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 30px;
+    
+}
+.text p{
+    margin-right: 20px;
+  
+}
+.card-body{
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.toldbox{
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    border-radius: 10px;
+    /* box-shadow: 3px 5px 4px black; */
+    width: 80%;
+    margin-left: 10%;
+    color: white;
+}
+.toldbox .pourcent{
+  margin-bottom: 30px;
+}
+
+.chiffre {
+    background-color: #CE0033;
+    width: 30%;
+    height: 50%;
+    margin-left: 35%;
+     font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.colorblack{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    width: 30%;
+    height: 50%;
+    margin-left: 35%;
+    text-align: center;
+    font-weight: 700;
+}
+
+.card-last{
+    background-color: #CE0033;
+    color: white;
+}
+.reseau{
+    padding-top: 100px;
+}
+
+
+@media screen and (max-width:767px){
+    .toldbox{
+        text-align: center;
+        display: grid;
+        grid-template-columns: 1fr;
+       
+    }
+    .container{
+        display: grid;
+       grid-template-columns: 1fr;
+       /* margin-bottom: 30px; */
+       
+    }
+    .simplonco{
+        
+        display: grid;
+        grid-template-columns: 1fr ;
+        /* margin-bottom: 30px; */
+        
+    }
+}

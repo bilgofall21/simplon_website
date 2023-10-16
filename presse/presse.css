@@ -1,0 +1,83 @@
+
+main .banniere{
+    background-image:url("https://img.freepik.com/free-photo/closeup-human-hands-using-cellphone_1262-14167.jpg?size=626&ext=jpg&ga=GA1.1.410106095.1694595730&semt=ais");
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50vh;
+    text-align: center;
+    color: white;
+    padding-top: 5%;
+}
+main .banniere .retour{
+    /* border: 1px solid red; */
+    padding-right:85% ;
+    margin-top: 3%;
+}
+main .banniere .retour a{
+    text-decoration: none;
+    color: white;
+    margin-top: 10%;
+}
+main .blocpressbis{
+    /* border: 1px solid red; */
+    width: 80%;
+    height: auto;
+    margin: 1% auto;
+}
+main .blocpressbis .toppresse{
+    border: 1px solid #ccc;
+    margin-bottom: 2%;
+}
+main .blocpressbis .toppresse .cardtop{
+    width: 100%;
+    height: 150px;
+
+}
+#figaro{
+    width: 500px ;
+    height: 166px;
+    border: 3px solid;
+   
+}
+#media{
+    height: 176px;
+    border:3px solid black !important ;
+}
+
+main .blocpressbis .otherpresse{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    gap: 2%;
+
+}
+@media (max-width: 768px){
+    main .banniere{
+        padding-top: 20%;
+        margin-top: 5%;
+    }
+    main .banniere .retour{
+        margin-top: 15%;
+    }
+   
+    main .blocpress .blocpressbis .otherpresse{
+        display: grid;
+        grid-template-columns: 1fr;
+        height: auto;
+        
+        
+    }
+    .cardtop{
+        display: none;
+    }
+    
+}
+@media (min-width: 769px) and (max-width: 1200px) {
+    main .banniere{
+        padding-top: 15%;
+    }
+    main .banniere .retour{
+        margin-top: 15%;
+    }
+}

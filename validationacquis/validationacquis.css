@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+main .banniere{
+    background-image: url("https://img.freepik.com/free-photo/young-african-accountant-wearing-formal-wear-holding-documents-dealing-with-paperwork_273609-13581.jpg?w=900&t=st=1697324536~exp=1697325136~hmac=edf7b1080454eaef0a14db3b049da87881f2fa609c814b2e1a3971c08f3cc351");
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+    text-align: center;
+    color: white;
+    padding-top: 8%;
+}
+main .banniere .retour{
+    text-align: left ;
+    margin-left: 2%;
+    margin-top: 8%;
+}
+main .banniere .retour a{
+    text-decoration: none;
+    color: white;
+    
+}
+main .validationtop{
+    width: 80%;
+    height: auto;
+    margin: 2% auto;
+    /* border: 1px solid red; */
+}
+main .validationtop img{
+    width: 100%;
+    margin-left: 10%;
+}
+main .validationbottom{
+    width: 80%;
+    height: auto;
+    margin: 2% auto;
+    /* border: 1px solid red; */
+}
+
+  details {
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    padding: 0.5em 0.5em 0;
+  }
+  
+  summary {
+    margin: -0.5em -0.5em 0;
+    padding: 0.5em;
+  }
+  
+  details[open] {
+    padding: 0.5em;
+  }
+  
+  details[open] summary {
+    border-bottom: 1px solid #aaa;
+    margin-bottom: 0.5em;
+  }
+  #lien{
+    color: #a4082f;
+  }
+  /* les medias queries */
+  @media (max-width: 767px){
+   main .banniere{
+    padding-top: 15%;
+    margin-top: 15%;
+    height: 32vh;
+   }
+   main .banniere .retour{
+    margin-top: 20%;
+   }
+   
+  }
+  /* Pour tablette */
+  @media (min-width: 768px) and (max-width: 1025px){
+    main .banniere{
+      height: 32vh;
+      padding-top: 15%;
+    }
+    main .banniere .retour{
+      margin-top: 10%;
+    }
+  }
+  @media (min-width:1030){
+    main .banniere{
+      height: 18vh;
+      padding-top: 2%;
+    } 
+   
+  }

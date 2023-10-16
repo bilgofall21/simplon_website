@@ -1,0 +1,33 @@
+
+
+
+
+/* baniere page */
+#banner{
+    background: linear-gradient(0deg, #0000008f, #0000008f), url("https://img.freepik.com/photos-gratuite/portrait-horizontal-personnes-assis-dans-file-attente-avoir-conversation-agreable-autres_273609-8261.jpg?size=626&ext=jpg&ga=GA1.1.2145246215.1689776414&semt=sph");
+    height: 70vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    width: 100%;
+    background-position: center;
+    color: white;
+
+}
+#banner p{
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* fin baniere page */
+@media (max-width:448px){
+    .icones{
+        display: none;
+    }
+    header .Tete .teteContainer{
+        display: flex;
+        padding: 4px 20px;
+        justify-content: center;
+        /* align-items: center; */
+    }
+}

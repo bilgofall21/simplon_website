@@ -2,6 +2,9 @@
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     text-decoration: none;
     list-style: none;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 
 }
 :root {
@@ -24,7 +27,12 @@ main{
     color:black !important;
 }
 header .Tete{
-    background-color: #a4082f;
+    background-color: #CE0033;
+    height: 6.5vh;
+    display: flex;
+    align-items: center;
+
+    
 
 }
 header .Tete .teteContainer{
@@ -49,7 +57,7 @@ header .headTete{
 .icones .sociaux{
     margin-left: 15px;
     padding: 2px 4px;
-    width: 15%;
+    width: 14%;
     border-radius: 50%;
     border: 1px solid white;
     display: flex;
@@ -57,7 +65,7 @@ header .headTete{
     align-items: center;
 }
 
-#banner{
+/* #banner{
     background: linear-gradient(0deg, #0000008f, #0000008f), url("./images/bg.jpg");
     height: 60vh;
     background-size: cover;
@@ -71,7 +79,7 @@ header .headTete{
 #banner p{
     margin: 0 auto;
     text-align: center;
-}
+} */
 /* ----------- fin menu refonte page */
 
 /* ----------- debut footer refonte page */
@@ -83,14 +91,12 @@ header .headTete{
     display: flex;
     justify-content: center;
     align-items: center;
-    /* margin-left: 10px; */
+    margin-right: 10px;
 }
 .logo{
 width: 60%;
 }
-.social{
-    margin-left: 10px;
-}
+
 .logo img{
 height: 50px;
 }
@@ -142,8 +148,8 @@ height: 50px;
 
     /* baniere page */
     #banner{
-        background: linear-gradient(0deg, #0000008f, #0000008f), url("./image_menu/baniere.jpg");
-        height: 30vh;
+        background: linear-gradient(0deg, #0000008f, #0000008f), url("../reseau_fabrique_simplon/image_fabrique_simplon/Programmation-alternance\ \(3\).jpg");
+        height: 50vh;
         background-size: cover;
         background-repeat: no-repeat;
         margin: 0;
@@ -158,15 +164,14 @@ height: 50px;
     }
 
     /* fin baniere page */
-
-
-
-
-
-
-
-
-
-
-    
-    
+    @media (max-width:448px){
+        .icones{
+            display: none;
+        }
+        header .Tete .teteContainer{
+            display: flex;
+            padding: 4px 20px;
+            justify-content: center;
+            /* align-items: center; */
+        }
+    }

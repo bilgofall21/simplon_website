@@ -1,0 +1,76 @@
+.bg-simplon{
+    background-color: var(--simplon_color);
+    color: white;
+}
+.card p{
+    font-size: 13px;
+    text-align: justify;
+}
+#content .list-group  .active{
+    background-color: var(--simplon_color) !important;
+}
+#content .list-group-item{
+    font-size: 13px;
+}
+ p{
+    font-size: 12px;
+
+}
+.simplon_color{
+    color: var(--simplon_color);
+}
+
+#list-avantages .card{
+    height: 30vh !important;
+}
+#list-avantages .card img{
+    height: 30vh !important;
+}
+
+@media  screen and  (max-width : 768px) {
+    #list-avantages .card{
+        height: auto !important;
+    }
+    #list-avantages .card img{
+        height: auto !important;
+    }
+    #content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #list-tab{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        justify-content: center;
+        align-items: center;
+    }
+    .list-group{
+        width: 100%;
+    }
+    .list-group-item{
+        width: 100% !important;
+    }
+}
+
+@media  screen and (max-width : 576px ) {
+    #list-avantages .card{
+        height: auto !important;
+    }
+    #list-avantages .card img{
+        height: auto !important;
+    }
+    #content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #list-tab{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        justify-content: center;
+        align-items: center;
+    }
+}

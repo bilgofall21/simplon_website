@@ -1,0 +1,206 @@
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+
+}
+:root {
+    --redsimplon : #CE0033;
+}
+main .banniere{
+    background-image: url("https://img.freepik.com/photos-premium/deux-eleves-aide-tablet-pc-leur-bureau_107420-32527.jpg?size=626&ext=jpg&ga=GA1.2.410106095.1694595730&semt=ais");
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50vh;
+    text-align: center;
+    color: white;
+    padding-top: 5%;
+}
+main .banniere .retour{
+    /* border: 1px solid red; */
+    padding-right:75% ;
+    margin-top: 6%;
+}
+main .banniere .retour a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+.lefttop{
+    /* border: 2px solid gold; */
+
+}
+.lefttop img{
+    /* border: 1px solid green; */
+    height: 310px;
+    width: 367px;
+}
+.righttop{
+    /* border: 4px solid red; */
+    
+}
+.reversing{
+    width:89%;
+    /* border:1px solid red; */
+    margin: 0 auto;
+}
+.number{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.number .numberitem{
+  border-left: 4px solid var(--redsimplon);
+}
+
+.actionformation{
+    /* border: 4px solid green ; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 50px;
+}
+.actionformation .actionitem2{
+    height: 350px;
+    width: 100%;
+    /* border: 4px solid yellow; */
+}
+.actionformation .actionitem1 img{
+    height: 350px;
+    width: 100%;
+    
+}
+.actionitem1text{
+    font-size: 14px;
+    /* border: 2px solid white; */
+}
+
+
+.actionobjectif{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 150px;
+}
+
+.actionsponsor img{
+    height: 80px;
+}
+
+
+/* Media query */
+@media (max-width:810px){
+    main  .banniere{
+        padding-top: 25%;
+    }
+    .lefttop{
+        width: 100px;
+        /* border: 1px solid red; */
+    }
+    .lefttop img{
+        width: 100%;
+    }
+    .actionformation{
+        display: grid;
+        grid-template-columns: 1fr ;
+        padding: 0 5px;
+    }
+    .actionformation .card2, .card4{
+        /* height: 50vh; */
+        margin-bottom: 5%;
+        margin-top: 2%;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .actionformation .actionitem2{
+        height: 250px;
+
+        
+    }
+    .actionformation .actionitem2 p{
+      font-size: 12px;
+        
+    }
+    .actionformation .actionitem1 img{
+        height: 200px;
+        width: 100%;
+        
+    }
+    .card1, .card3{
+        height: 60vh;
+    }
+    .actionsponsor .partenair img, .row img{
+        width: 80%;
+       margin: 5% 8%;
+    }
+}
+@media (max-width:448px){
+    main  .banniere{
+        padding-top: 45%;
+    }
+    main  .banniere p{
+        display: none;
+    }
+    main .banniere .retour{
+        display: block;
+        /* border: 1px solid red; */
+        height: 3vh;
+        margin-top: 20%;
+    }
+    main .info{
+        margin-top: -5%;
+    }
+    .actionformation{
+        height: 2900px;
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 0 5px;
+    }
+    .actionformation .card1{
+        /* height: 50vh; */
+        margin-bottom: 8%;
+        margin-top: -1%;
+    }
+    .actionformation .card2, .card4{
+        /* height: 50vh; */
+        margin-bottom: 5%;
+        margin-top: 2%;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .actionformation  .card2 .actionitem2 h5{
+        margin-top: -2% !important ;
+        /* border: 1px solid red; */
+    }
+    .actionformation  .card4 .actionitem2 h5{
+        margin-top: -8% !important ;
+        /* border: 1px solid red; */
+    }
+    .actionformation  .card5 .actionitem2 h5{
+        margin-top: -8% !important ;
+        /* border: 1px solid red; */
+    }
+    
+    .partenair{
+        /* width: 100%; */
+        display: flex;
+        justify-content: center;
+    }
+    .actionsponsor img{
+        height: auto;
+        width: auto;
+    }
+    .btn{
+        margin-bottom: 15%;
+        width: 70%;
+        height: 40px;
+        font-size: 10px;
+    }
+}
+@media (min-width: 770px) and (max-width:1300px){
+    main .banniere{
+        margin-top: 5%;
+    }
+}

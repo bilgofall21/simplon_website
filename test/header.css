@@ -1,0 +1,335 @@
+/* Header */
+/* header .Tete{
+    padding: 1%;
+} */
+*{
+    padding: 0;
+    margin: 0;
+}
+header .Tete .teteContainer{
+    border: 1px solid black;
+    display: flex;
+    background-color: #a4082f;
+    padding: 4px 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .headTete{
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+
+
+
+
+.headTete .Tete .teteContainer .traduction{
+    /* border:1px solid black; */
+    margin-left: 2%;
+}
+
+
+
+.icones{
+    margin-right: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icones .sociaux{
+    margin-left: 15px;
+    padding: 6px;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+header .detailBack{
+    background: #17475957;
+}
+
+
+
+/* TeteDescript */
+
+.TeteDescript{
+    background-color: white;
+}
+
+.TeteDescript nav{
+    display: flex;
+    justify-content: space-between;
+    height: 12vh;
+    padding: 0px 20px;
+    border-bottom: 2px solid rgba(190, 186, 186, 0.627);
+}  
+.nav-left a img{
+    /* border: 1px solid red; */
+    height: 15vh;
+    width: 100%;
+}
+
+nav .navRight{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navRight .menu{
+    display: flex;
+}
+
+.navRight .menu ul{
+    display: flex;
+    padding-top: 10px;
+}
+
+.navRight ul li{
+    list-style-type: none;
+    margin-left: 30px;
+}
+
+.navRight ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+.navRight ul li a i{
+    font-size: 12px;
+}
+
+
+
+.navRight .menu span{
+    margin-right: 20px;
+    padding-top: 10px;
+}
+
+
+
+
+
+.navRight .boutonTog{
+    display: none;
+
+}
+
+.navRight .dropMenu{
+    display: none;
+    position: absolute;
+    right: 10%;
+    top: 100px;
+    width: 80%;
+    height: 0;
+    background-color: white;
+    box-shadow: 1px 1px;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: height 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.navRight .dropMenu.open {
+    height: 440px;
+}
+
+.navRight .dropMenu li {
+    list-style-type: none;
+    margin: 20px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.navRight .dropMenu .drop{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+}
+
+.navRight .dropMenu .drop li{
+    padding-bottom: 1%;
+    margin: 0;
+    display: none;
+    font-size: 12px;
+    font-weight: thin;
+}
+
+
+.navRight .dropMenu ul li:hover .drop li {
+    display: block;
+}
+
+
+.navRight .dropMenu li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+.navRight .dropMenu li:hover {
+    text-decoration: underline 2px #a4082f;
+}
+
+.navRight .dropMenu li .active {
+    text-decoration: underline 2px #a4082f;
+}
+
+.navRight .drop{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    box-shadow: 1px 1px;
+}
+
+.navRight .drop li{
+    padding-bottom: 1%;
+    margin: 0;
+    display: none;
+    font-size: 12px;
+    font-weight: thin;
+    margin: 5px;
+}
+
+.navRight ul li:hover .drop li{
+    display: block;
+    color: var(--bleuFonce);
+}
+
+.navRight .drop li a:hover{
+    border-bottom: 2px solid #a4082f;
+}
+
+.TeteDetails nav .activeLink {
+    text-decoration: underline 2px solid #a4082f;
+    text-underline-offset: 0.5rem;
+}
+
+.TeteDetails nav .activeLink {
+    text-decoration: underline 2px solid #a4082f;
+    text-underline-offset: 0.5rem;
+}
+
+.navRight ul .hovLink:hover {
+    text-decoration: underline 2px solid #a4082f;
+    text-underline-offset: 0.5rem;
+}
+
+
+
+
+/* Sroll-bar */
+
+/* .scroll-bar {
+    position: fixed;
+    top: 52vh;
+    left: 94%;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    background-color: #0599D7;
+    cursor: pointer;
+} */
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 900px) {
+
+    .navRight .boutonTog{
+        display: block;
+        z-index: 1;
+        color: black;
+    }
+
+    .navRight .dropMenu{
+        display: block;
+        z-index: 1;
+    }
+
+    .navRight .dropMenu li:hover .drop{
+        display: block;
+    }
+
+    .navRight .dropMenu .drop{
+        position: absolute;
+        display: flex;
+        margin-top: 3%;
+        margin-left: 60%;
+        flex-direction: column;
+        margin-bottom: 2%;
+        display: none;
+    }
+    
+    .navRight .dropMenu .drop li{
+        margin: 0;
+        display: block;
+        font-size: 10px;
+        font-weight: thin;
+    }
+    
+    .navRight .dropMenu .drop li a:hover {
+        border-bottom: 1px solid #a4082f;
+    }
+
+    .section1Cont .cardSection1 {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+        row-gap: 20px;
+    }
+
+
+    header .Tete .teteContainer {
+        display: none;
+    }
+    .teteContainer .icones{
+        display: flex;
+        justify-content: center;
+    }
+
+    .TeteDescript .navRight .menu{
+        display: none;
+    }
+
+    .TeteTitle{
+        padding-top: 80px;
+    }
+
+    .TeteTitle .titleContainer {
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+
+}
+
+
+   
+
+ 
+
+    
