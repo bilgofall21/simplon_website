@@ -4,3 +4,11 @@ body{
 .banner img{
 
 }
+
+.form-group{
+    margin-bottom: 20px;
+}
+
+.form-group input{
+    margin-top: 10px;
+}

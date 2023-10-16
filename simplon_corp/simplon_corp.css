@@ -31,7 +31,7 @@
   background-color: #CE0033;
   height: 230px;
   display: flex;
-  width: 500px;
+  /* width: 500px; */
   justify-content: center;
   align-items: center;
 }
@@ -41,12 +41,12 @@
   font-weight: 700;
 }
 .corptexte{
-  height: 230px;
+  height: 50%;
   border: 1px solid black;
   padding: 5px 20px;
 }
 .corptexte p{
-  font-size: 17px;
+  /* font-size: 17px; */
 }
 .cardformation{
   /* border: 2px solid red; */
@@ -129,17 +129,30 @@
   gap: 20px;
   margin-left: 20%;
 }
-.partener h3{
+.titrepartenaire h3{
   text-align: center;
   font-weight: 700;
   color: #CE0033;
 }
-.partener img{
+.partener{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  width: 50%;
+  margin-left: 20%;
+}
+/* .partener img{
   width: 100px;
  margin-left: 10%;
 }
 .imginfo img{
-  width: 0 auto;
+  width: 100%;
+  height: 100%;
+} */
+.imginfo1 img{
+  width: 100%;
+  height: 100%;
 }
 
 
@@ -168,6 +181,16 @@
   .pourcent{
     /* display: grid; */
     grid-template-columns: 1fr;
+  }
+  .partener{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    /* justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    width: 50%;
+    margin-left: 20%; */
   }
  
 }
