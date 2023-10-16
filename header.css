@@ -23,6 +23,11 @@ header .Tete{
     
 
 }
+.collapse{
+    border: 1px solid gold;
+    display: flex;
+    justify-content: ;
+}
 header .Tete .teteContainer{
     display: flex;
     padding: 4px 20px;
@@ -88,3 +93,4 @@ header .headTete{
 
 /* footer css */
 
+@media  screen and (max-width : 810px )
