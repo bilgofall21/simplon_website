@@ -6,26 +6,32 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    
 }
 
 /* main */
 
 /* banniere */
-.simplon_paratique #haut_de_page_pratique .img_banniere{
+.simplon_paratique .img_banniere{
     width: 100%;
-    height: 300px;
+    height: 50vh !important;
     /* object-fit: cover; */
 }
 .simplon_paratique .petit_titre_text{
     background-color: rgba(0, 0, 0, 0.5);
     position: absolute;
-    top:23% ;
+    top:20.5% !important;
     width: 100%;
-    height: 250px;
+    height: 50vh !important;
     text-align: center;
     color: white;
     font-weight: bold;
 
+}
+
+.simplon_paratique .petit_titre_text p a{
+    text-decoration: none;
+    color: white;
 }
 
 .simplon_paratique .petit_titre_text h3 {
@@ -34,14 +40,14 @@
     letter-spacing: 2px;
     margin-bottom: 7%;
     position: relative;
-    top: 105px;
+    top: 155px;
 }
 
 .simplon_paratique .petit_titre_text p {
     font-size: 17px;
     font-weight: bold;
     position: relative;
-    top: 65px;
+    top: 135px;
     margin-left: -77%;
 }
 /* fin banniere */
@@ -207,12 +213,8 @@
     height: 250px;
 }
 .simplon_paratique .petit_titre_text{
-    background-color: rgba(0, 0, 0, 0.5);
     position: absolute;
     top:14% ;
-    width: 100%;
-    height: 250px;
-
 }
 .simplon_paratique .petit_titre_text{
     text-align: center;
