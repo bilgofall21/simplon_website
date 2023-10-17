@@ -325,14 +325,14 @@
            <div class="col-md-12 col-lg-3  text-white" id="email">
              <h4>Rester informer</h4>
              <!-- <div class="container"> -->
-               <form / action>
+               <form>
                  <div class="col-md-10 mb-2">
                    <label for="mail" class="form-label">S'inscrire a la newsletter</label>
                    <input class="form-control form-control-sm " type="text" id="mail" placeholder="Email">   
-                   <div class="invalid-feedback">Veuillez entrer une adresse e-mail valide.</div> 
-                 </div>
+                   <!-- <div class="invalid-feedback">Veuillez entrer une adresse e-mail valide.</div> 
+                 </div> -->
                  <div class="col-md-5">
-                   <button id="myButton" class="btn btn-danger form-control" >S'inscrire</button>
+                   <button id="myButton" class="btn btn-danger form-control" type="button" >S'inscrire</button>
                  </div>
                </form>
              </div>
@@ -348,4 +348,17 @@
     integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
     crossorigin="anonymous"
   ></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script>
+  // Attacher un gestionnaire d'événement au bouton
+  document.getElementById('myButton').addEventListener('click', function() {
+      // Afficher l'alerte SweetAlert
+      Swal.fire({
+          title: 'Inscription reussie',
+          text: 'Simplon vous remercie',
+          icon: 'success', // icône de l'alerte (success, error, warning, info, question)
+          confirmButtonText: 'OK'
+      });
+  });
+</script>
 </html>

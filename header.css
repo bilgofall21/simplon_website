@@ -24,7 +24,7 @@ header .Tete{
 
 }
 .collapse{
-    border: 1px solid gold;
+    /* border: 1px solid gold; */
     display: flex;
     justify-content: ;
 }

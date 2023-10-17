@@ -409,6 +409,19 @@
 
 </body>
     <script src="reseau_de_fabrique.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script>
+  // Attacher un gestionnaire d'événement au bouton
+  document.getElementById('myButton').addEventListener('click', function() {
+      // Afficher l'alerte SweetAlert
+      Swal.fire({
+          title: 'Inscription reussie',
+          text: 'Simplon vous remercie',
+          icon: 'success', // icône de l'alerte (success, error, warning, info, question)
+          confirmButtonText: 'OK'
+      });
+  });
+</script>
 
 
 </html>
